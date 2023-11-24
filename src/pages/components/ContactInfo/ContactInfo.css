@@ -1,0 +1,219 @@
+.zh-contact-info-section{
+    width: 87%;
+    margin: -150px auto 150px auto;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.zh-contact-info-section .zh-contact-parent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 5px rgba(24, 29, 31, 0.14);
+    border-radius: 1.01rem;
+}
+.zh-contact-info-section .zh-mountain-breeze-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.zh-contact-info-section .zh-mountain-breeze-icon img{
+    width: 4.08rem;
+    height: 1.69rem;
+}
+
+.zh-contact-info-section .zh-mountain-breeze-icon p{
+    font-family: Montserrat;
+    font-size: 0.87rem;
+    font-weight: 700;
+    line-height: 1.06rem;
+    letter-spacing: 0em;
+}
+
+.zh-contact-info-section .zh-contact-4-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zh-contact-info-section .zh-contact-4-info img{
+    width: 3.125rem;
+}
+.zh-contact-info-section .zh-contact-4-info .zh-location-direction,.zh-phone-parking{
+    width: 45.9%;
+    margin: 0 auto;
+}
+
+
+
+.zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location ,.zh-direction,.zh-phone-parking .zh-car ,.zh-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h5 , .zh-direction h5 , .zh-phone-parking .zh-phone h5 , .zh-car h5 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.12rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  #004E6B;
+
+}
+
+
+.zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-direction  span{
+    color:#282828 ;
+}
+
+.zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h6 , .zh-direction h6 ,.zh-phone-parking .zh-phone h6 ,.zh-car h6{
+    font-family: Montserrat;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 2.12rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#282828;
+}
+
+.zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location p,.zh-direction p,.zh-phone-parking .zh-phone p, .zh-car p{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+    letter-spacing: 0em;
+    color: #282828;
+    text-align: center;
+
+}
+
+.zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-direction h6 ,.zh-direction p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color:  #004E6B;
+}
+
+.zh-contact-info-section .zh-contact-icons{
+    width: 23.575rem;
+    height: 3.87rem;
+    border-radius: 1rem;
+    background-color: #004E6B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.zh-contact-info-section .zh-contact-icons img{
+    background-color: #004E6B;
+}
+
+
+
+@media (max-width:1356px){
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location p,.zh-direction p,.zh-phone-parking .zh-phone p, .zh-car p{
+        font-size: 1rem;
+    }
+
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h6,.zh-direction h6 ,.zh-phone-parking .zh-phone h6 ,.zh-car h6 ,
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-direction h6 ,.zh-direction p{
+        font-size: 1.2rem;
+    }
+
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h5 , .zh-direction h5 , .zh-phone-parking .zh-phone h5 , .zh-car h5{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width:904px){
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h5 , .zh-direction h5 , .zh-phone-parking .zh-phone h5 , .zh-car h5{
+        font-size: 0.8rem;
+    }
+
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h6,.zh-direction h6 ,.zh-phone-parking .zh-phone h6 ,.zh-car h6,
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-direction h6 ,.zh-direction p{
+        font-size: .9rem;
+    }
+
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location p,.zh-direction p,.zh-phone-parking .zh-phone p, .zh-car p{
+        font-size: 0.8rem;
+    }
+
+    .zh-contact-info-section .zh-contact-4-info img{
+        width: 2.125rem;
+    }
+}
+
+@media (max-width:723px){
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h5 , .zh-direction h5 , .zh-phone-parking .zh-phone h5 , .zh-car h5{
+        font-size: 0.75rem;
+        width: 13.06rem;
+    }
+
+}
+
+@media (max-width:600px){
+    .zh-contact-info-section{
+        width: 19.5rem;
+        margin: 0 auto;
+    }
+
+    .zh-contact-info-section .zh-mountain-breeze-icon img{
+        width: 2.23rem;
+        height: 0.93rem;
+    }
+
+    .zh-contact-info-section .zh-mountain-breeze-icon p{
+        width: 5.85rem;
+        font-size: 0.56rem;
+    }
+    .zh-contact-info-section .zh-contact-4-info{
+        flex-direction: column;
+    }
+
+    .zh-contact-info-section .zh-contact-4-info img{
+        width: 1.125rem;
+    }
+
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h5 , .zh-direction h5 , .zh-phone-parking .zh-phone h5 , .zh-car h5{
+        font-size: 0.75rem;
+        width: 13.06rem;
+        line-height: 1.06rem;
+        text-align: center;
+    }
+
+    .zh-contact-info-section .zh-contact-icons{
+        width: 15rem;
+        height: 3.125rem;
+    }
+
+    .zh-contact-info-section .zh-contact-icons img{
+        width: 1.38rem;
+    }
+
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h6,.zh-phone-parking .zh-phone h6 ,.zh-car h6,
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-direction h6 ,.zh-direction p{
+        width: 11.31rem;
+        font-size: 0.87rem;
+        line-height: 1.23rem;
+    }
+
+    .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location p,.zh-direction p,.zh-phone-parking .zh-phone p, .zh-car p{
+        width: 11.81rem;
+        font-size: 0.75rem;
+        line-height: 1.06rem;
+
+    }
+}

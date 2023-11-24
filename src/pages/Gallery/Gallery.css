@@ -1,0 +1,17 @@
+import Hero from "../components/Hero/Hero"
+import imghero from "./../img/Group 512.png"
+import scrollimg from "./../img/scroll.png"
+
+
+function Explore() {
+  return (
+    <>
+    <Hero imghero={imghero}
+      titlehero="Feel The Breeze2"
+      deschero="Scroll To Discover2"
+      scrollimg={scrollimg}
+    />
+    </>
+  )
+}
+export default Explore

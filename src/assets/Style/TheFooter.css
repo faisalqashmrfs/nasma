@@ -1,0 +1,119 @@
+.footer{
+    background-image: url('./../img/back1.png');
+}
+.container{
+   gap: 40px;
+    background: rgba(0, 76, 106, 0.90);
+}
+.container .image1{
+    margin-top: 50px;
+    margin: 50px auto 20px auto;    
+}
+.father-of-img-footer
+{
+    width: 100%;
+}
+.section1{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.links{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    gap: 20px;
+}
+.links img{
+    width: 20px;
+    height: 20px;
+}
+.phonenumber{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    gap: 5px;
+}
+.phonenumber p{
+    color: rgba(241, 241, 241, 0.80);
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;   color: rgb(175, 175, 179);
+}
+a{
+    color: rgb(175, 175, 179);
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+.links h3{
+    font-size: 1rem;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+}
+.links button{
+     background-color: rgba(0, 76, 106, 0.99);
+    border: solid 1px white;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 44px;
+}
+.socailmedia{
+    display: flex;
+    justify-content: space-between;
+
+}
+.socailmedia img{
+    width: 1.25rem;
+height: 1.25rem;
+}
+.createdby{
+    font-size: 0.875rem;
+    color: white;
+    margin-bottom: 0.9rems;
+    font-family: Open Sans;
+}
+.focalx{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.focalx img{
+    width: 75px;
+    height: 19px;
+}
+@media screen and (max-width: 400px){
+    .section2{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .links{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}

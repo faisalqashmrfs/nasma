@@ -1,0 +1,31 @@
+.nav-fq-rec
+{
+  width: 100%;
+  height: 100px;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+  background-color: rgba(0, 0, 0, 0.144);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.nav-fq-rec ul
+{
+  list-style: none;
+  display: flex;
+  font-size: 24px;
+}
+.nav-fq-rec ul li
+{
+  color: white;
+  margin: 5px;
+}
+.nav-fq-rec ul .link-nav
+{
+  color: white;
+  margin: 5px;
+}

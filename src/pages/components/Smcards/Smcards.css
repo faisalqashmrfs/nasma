@@ -1,0 +1,178 @@
+.zh-smcards-container{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: -150px;
+    z-index: 99;
+}
+.zh-smcards-container1{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    z-index: 99;
+}
+ .zh-smcard{
+    width: 27.9%;
+    background-color: #FFFFFF;
+    border-radius: 1.43rem 1.43rem ;
+    box-shadow:.1rem .1rem #0000001A ;
+}
+
+ .zh-smcard .zh-smcard-img{
+    width: 100%;
+}
+
+ .zh-smcard .zh-smcard-img img{
+    width: 100%;
+    border-radius: 1.43rem 1.43rem 0 0;
+}
+
+ .zh-smcard .zh-smcard-info .zh-h5-smscreen,.zh-h6-smscreen,.zh-btn-smscreen,.zh-img-smscreen{
+    display: none;
+}
+
+ .zh-smcard .zh-smcard-info h5{
+    font-family: Montserrat;
+    width: 90%;
+    margin-top: 2%;
+    font-size:1.375rem;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+
+ .zh-smcard .zh-smcard-info{
+    margin-left: 4%;
+}
+
+ .zh-smcard .zh-smcard-info h6{
+    font-family: Montserrat;
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282828;
+}
+
+ .zh-smcard .zh-smcard-info p{
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808080;
+}
+
+ .zh-smcard .zh-smcard-info button{
+    width: 47.8%;
+    height: 2.31rem;
+    border-radius: 0.37rem;
+    font-family: Montserrat;
+    font-size: 1.12rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-bottom: 5%;
+    background-color: #004E6B;
+    color: #FFFFFF;
+}
+
+@media (max-width:1290px){
+     .zh-smcard .zh-smcard-info h6{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:1070px){
+     .zh-smcard .zh-smcard-info h5{
+        font-size: .91rem;
+    }
+
+
+     .zh-smcard .zh-smcard-info h6{
+        font-size: .6rem;
+    }
+
+     .zh-smcard .zh-smcard-info p{
+        font-size:.6rem ;
+    }
+     .zh-smcard .zh-smcard-info button{
+        font-size: .8rem;
+        height: 1.91rem;
+    }
+}
+
+@media (max-width:774px){
+     .zh-smcard .zh-smcard-info h5{
+        font-size: .7rem;
+    }
+
+
+     .zh-smcard .zh-smcard-info h6{
+        font-size: .49rem;
+    }
+
+     .zh-smcard .zh-smcard-info p{
+        font-size: .48rem;
+    }
+
+     .zh-smcard .zh-smcard-info button{
+        font-size: .6rem;
+        height: 1.31rem;
+    }
+}
+
+@media (max-width:600px){
+    .zh-smcards-container
+    {
+        width: 19.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .zh-smcards-container1
+    {
+        width: 19.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .zh-smcard{
+        width: 19.5rem;
+        margin-top: 3%;
+    }
+
+     .zh-smcard .zh-smcard-info h5{
+        font-size: 1rem;
+    }
+
+     .zh-smcard .zh-smcard-info .zh-h5-bigscreen,.zh-h6-bigscreen,.zh-btn-bigscreen,.zh-img-bigscreen{
+        display: none;
+    }
+
+     .zh-smcard .zh-smcard-info .zh-h5-smscreen,.zh-h6-smscreen,.zh-btn-smscreen,.zh-img-smscreen{
+        display: block;
+    }
+
+     .zh-smcard .zh-smcard-info h6{
+        font-size: .75rem;
+    }
+
+     .zh-smcard .zh-smcard-info p{
+        font-size: .75rem;
+    }
+     .zh-smcard .zh-smcard-info button{
+        width: 7.12rem;
+        height: 1.75rem;
+        font-size: 1rem;
+    }
+}

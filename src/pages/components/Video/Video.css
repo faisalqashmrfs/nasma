@@ -1,0 +1,111 @@
+.video-section{
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 78, 107, 0.9),#215cbac4), url(./../../img/image.video/1\ 7.png) ;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.video-section .top{
+    width: 100%;
+    height: 97px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.video-section .col{
+    width: 20%;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .video-section h2{
+    color: white;
+    font-weight: 500;
+    font-size: 3em;
+} 
+.video-section .text{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.video-section .video{
+    background-image: url(./../../img/image.video/Mask\ group.png);
+    background-position: center center;
+    background-size: cover;
+    width: 90%;
+    margin: 150px auto 100px auto;
+    height: 90%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-section .image{
+    width: 100%;
+}
+.video-section .middle-logo{
+    width: 12rem;
+    height: 12rem;
+
+}
+.video-section .logo{
+        width:100% ;
+
+}
+
+@media screen  and (max-width:900px){
+     .video-section{
+        height: 386px;
+    }
+    .video-section .top{
+        height: 97px;
+        padding-top: 3%;
+    }
+    .video-section h2{
+        font-size: 2rem;
+    }
+    .video-section .text{
+        font-size: 11px;
+    }
+    .video-section .video{
+        height: 250px;
+        top: 50%;        
+    }
+    .video-section .middle-logo{
+        width: 4rem;
+        height: 4rem;
+    
+    }
+    
+}
+@media screen  and (max-width:600px){
+    .video-section{
+       height: 186px;
+   }
+   .video-section .top{
+       height: 97px;
+       padding-top: 1%;
+   }
+   .video-section h2{
+       font-size: 1rem;
+   }
+   .video-section .text{
+       font-size: 8px;
+   }
+   .video-section .video{
+       width: 90%;
+       height: 150px;
+       top: 55%;
+   }
+   .video-section .middle-logo{
+       width: 3rem;
+       height: 3rem;
+   
+   }
+}
+

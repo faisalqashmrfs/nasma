@@ -1,0 +1,116 @@
+.zh-gallery{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.zh-gallery .zh-img1{
+    width: 100%;
+    height: 19.87rem;
+    margin: 0 auto;
+}
+.zh-gallery .zh-img1 img{
+    width: 100%;
+    height: 19.87rem;
+    border-radius: 0.5rem;
+
+}
+
+.zh-gallery .zh-next-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    width: 100%;
+    margin: 3% auto 0;
+}
+
+.zh-gallery .zh-next-images img{
+    width: 31.301%;
+    height: 19.87rem;
+}
+
+.zh-gallery .zh-last-images{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 3%;
+    width: 100%;
+    height: 19.87rem;
+    margin: 3% auto 0;
+}
+
+.zh-gallery .zh-last-images img{
+    width: 31.301%;
+}
+.zh-gallery .zh-last-images .zh-img5{
+    width: 67%;
+    height: 19.87rem;
+    border-radius: 1%;
+    
+}
+
+.zh-gallery .zh-btn-gallery{
+    width: 11.62rem;
+    height: 2.31rem;
+    border: 1px solid #004E6B;
+    color: #004E6B;
+    background-color: white;
+    border-radius: 0.37rem;
+    font-family: Montserrat;
+    font-size: 1.41rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    letter-spacing: 0em;
+    margin:3% auto;
+    transition: all .3s;
+}
+
+.zh-gallery .zh-btn-gallery:hover{
+    color:aliceblue;
+    background-color: #004E6B;
+}
+
+@media (max-width:600px){
+    .zh-gallery{
+        width: 19.5rem;
+    }
+
+    .zh-gallery .zh-img1{
+        height: 7.8125rem;
+    }
+
+    .zh-gallery .zh-img1 img{
+        height: 7.8rem;
+    }
+
+    .zh-gallery .zh-next-images .zh-img2{
+        display: none;
+    }
+
+    .zh-gallery .zh-next-images img{
+        width: 9.31rem;
+        height: 7.81rem;
+    }
+
+    .zh-gallery .zh-last-images .zh-img6{
+        display: none;
+    }
+
+    .zh-gallery .zh-last-images{
+        height: 7.8rem;
+    }
+    .zh-gallery .zh-last-images .zh-img5{
+        width: 100%;
+        height: 7.8rem;
+    }
+
+    .zh-gallery .zh-btn-gallery{
+        width: 6.25rem;
+        height: 1.5rem;
+        font-size: 0.87rem;
+        line-height: 1.06rem;
+    }
+}
