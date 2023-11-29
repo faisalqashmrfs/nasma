@@ -12,6 +12,8 @@
 .father-of-img-footer
 {
     width: 100%;
+    display: flex;
+    padding: 50px 0;
 }
 .section1{
 
@@ -26,6 +28,7 @@
     flex-wrap: wrap;
     text-align: left;
     margin-bottom: 2rem;
+    padding: 0 100px ;
 }
 
 .links{
@@ -92,16 +95,23 @@ height: 1.25rem;
     color: white;
     margin-bottom: 0.9rems;
     font-family: Open Sans;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
 }
 .focalx{
-display: flex;
-align-items: center;
-justify-content: center;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .focalx img{
     width: 75px;
     height: 19px;
+}
+.createdby .p-footer{
+    margin-bottom:20px;
 }
 @media screen and (max-width: 400px){
     .section2{

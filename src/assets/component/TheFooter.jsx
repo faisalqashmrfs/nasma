@@ -57,7 +57,7 @@ function TheFooter(){
                     <img src={focal} alt="" />
                      </div>
                     
-                    <p>@2023 focalX. All right  reserved.</p>
+                    <p className='p-footer'>@2023 focalX. All right  reserved.</p>
                 </div>
             </div>
           </div>

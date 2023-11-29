@@ -1,0 +1,30 @@
+
+.select-option{
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+    gap: 29px !important;
+  }
+  
+  .select-option select{
+    width: 100% !important;
+    padding:9.5px 0;
+    border: none;
+    border-bottom: 2px solid rgb(61, 61, 61);
+    font-size: 19px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  @media screen  and (max-width:900px){
+    .select-option select{
+      width: 100% !important;
+      padding:5px 0;
+      border: none;
+      border-bottom: 2px solid rgb(61, 61, 61);
+      font-size: 19px;
+      background-color: #ffffff;
+      cursor: pointer;
+    }
+  }
+  

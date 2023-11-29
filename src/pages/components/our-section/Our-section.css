@@ -67,7 +67,13 @@
     justify-content: space-around;
     height: 44px;
 }
-.map-nasma{
+.map-nasma {
     width: 100%;
     height: 600px;
+    padding: 50px 100px;
+}
+.map-nasma iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
 }

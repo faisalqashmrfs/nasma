@@ -1,9 +1,17 @@
-
+import { useState } from 'react';
+import PopUpBooking from './../popUpBooking/PopUpBooking'
 import './Booking.css'
+import CheckMAFFF from './../Check-form/Check-form';
 
 const Booking = (props) => {
   const zhsection = "zh-section"
+
+  const [isOpen , setisOpen] = useState(false)
+
+
   return (
+    <>
+    
     <section className={props.class || zhsection}>
       <div className='zh-booking-parent'>
         <div className='zh-inner-img'>
@@ -21,13 +29,21 @@ const Booking = (props) => {
               {props.iconimg4 && props.icondesc4 && <span className='zh-iconimg4'><img src={props.iconimg4}/><p className='zh-p'>{props.icondesc4}</p></span>}
             </div>
             {props.btn && <div className='zh-btn-price'>
-              <button>{props.btn}</button>
+              <button onClick={() => setisOpen(true) }  >{props.btn}</button>
               <p>{props.price}<span>{props.pernight}</span></p>
             </div>}
           </div>
         </div>
       </div>
     </section>
+    <PopUpBooking 
+    open = {isOpen}
+    >
+    <CheckMAFFF
+    onClose = {() => setisOpen(false)}
+    />
+    </PopUpBooking>
+    </>
   )
 }
 

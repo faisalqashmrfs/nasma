@@ -1,0 +1,140 @@
+#check{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#check .form{
+    padding:40px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+#check .form .top-text{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+#check input{
+    width: 96%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid rgb(61, 61, 61);
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#check .inp{
+    width: 98.5%;
+    margin-bottom: 10px;
+}
+#check .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    margin-bottom: 10px;
+}
+#check .col{
+    display: flex;
+    flex-direction: column;
+    
+}
+#check  .text{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#check .groub{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#check .text-bottom{
+    transform: translateY(-60%);
+    font-size: 16px;
+    font-weight: 200;
+    color: rgba(37, 37, 37, 1);
+}
+#check .input-groub{
+    position: relative;
+}
+
+#check .placeholder {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    color: black;
+    transition: 0.3s;
+    pointer-events: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+#check input:focus + .placeholder{
+    top: -16px;
+    background-color: white;
+
+}
+#check span{
+    color: red;
+}
+#check .groub2{
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#check .groub2 .i{
+    padding-top: 30px;
+}
+#check button{
+    width: 275px;
+    height: 61px;
+    background-color: rgba(0, 78, 107, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 34px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#check button:hover{
+    background-color: rgb(189, 83, 12);
+}
+
+@media screen  and (max-width:900px){
+    #check .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #check .groub{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #check .groub2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    #check input{
+        padding: 11px;
+        font-size: 13px;
+    }
+    #check .inp{
+        width: 96%;
+    }
+
+}

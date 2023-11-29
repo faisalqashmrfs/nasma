@@ -1,9 +1,6 @@
 import imghero from './../img/Group 512.png';
 import scrollimg from './../img/scroll.png';
 import Hero from './../components/Hero/Hero';
-import Smcards from '../components/Smcards/Smcards';
-import smcardimg1 from './../img/smcardimg.png';
-import smcardimg1sm from './../img/img smscreen.png';
 import ImageGray from '../components/imagegray/ImageGray';
 import Booking from './../components/Booking/Booking';
 import img from './../img/cards/room1.jpg';
@@ -15,6 +12,8 @@ import Button from 'react-bootstrap/Button';
 import OurSection from '../components/our-section/Our-section';
 import VideoMA from '../components/Video/Video';
 import './Home.css'
+import HeroCard from '../components/sm-HeroCard/sm-HeroCard';
+import PopUpBooking from '../components/popUpBooking/PopUpBooking';
 const Home = () => {
   return (
     <>
@@ -23,30 +22,14 @@ const Home = () => {
       deschero="Scroll To Discover"
       scrollimg={scrollimg}
     />
-    <Smcards smcardimg1={smcardimg1}
-             smcardimg1sm={smcardimg1sm}
-             title1="The 13 most incredible experiences"
-             title1sm="Our history"
-             desc1="when did we start and how did we start and how ..."
-             desc1sm="A simple and peaceful life how did we start and how..."
-             date="July 17, 2023"
-             btn="Read Article"
-             btnsm="learn more"
-
-             smcardimg2={smcardimg1}
-             smcardimg2sm={smcardimg1sm}
-             title2="The 13 most incredible experiences"
-             title2sm="Our history"
-             desc2="when did we start and how did we start and how ..."
-             desc2sm="A simple and peaceful life how did we start and how..."
-
-             smcardimg3={smcardimg1}
-             smcardimg3sm={smcardimg1sm}
-             title3="The 13 most incredible experiences"
-             title3sm="Our history"
-             desc3="when did we start and how did we start and how ..."
-             desc3sm="A simple and peaceful life how did we start and how..."
-    />
+    <HeroCard/>
+    <div className="fq-our-info">
+                <div>
+                <h2>Our Residential</h2>
+                <p>Experience the ultimate in comfortable living in our residential properties.</p>
+                </div>
+                <div><button>View More</button></div>
+            </div>
     <ImageGray />
     <OurSection 
         imghero={imghero}
@@ -82,7 +65,7 @@ const Home = () => {
         title="Duplex Room"
         title2="2 floors suitable for families"
         desc="We warmly welcome you to our restaurant, where we strive to create an unparalleled dining experience that delights the senses and nourishes the soul.
-        Our team of culinary experts is dedicated to sourcing only the freshest and highest quality ingredients, preparing each dish with care and attention to detail. Thank you for choosing our restaurant for your dining pleasure. 
+        Our team of culinary experts is dedicated to sourcing only the freshest and highest quality ingredients, preparing each dish with care and attention to detail.Thank you for choosing our restaurant for your dining pleasure. 
         We are honored to have you as our guest and look forward to serving you again soon."
         
         />
@@ -91,7 +74,7 @@ const Home = () => {
         title="Duplex Room"
         title2="2 floors suitable for families"
         desc="We warmly welcome you to our restaurant, where we strive to create an unparalleled dining experience that delights the senses and nourishes the soul.
-        Our team of culinary experts is dedicated to sourcing only the freshest and highest quality ingredients, preparing each dish with care and attention to detail. Thank you for choosing our restaurant for your dining pleasure. 
+        Our team of culinary experts is dedicated to sourcing only the freshest and highest quality ingredients, preparing each dish with care and attention to detail.Thank you for choosing our restaurant for your dining pleasure. 
         We are honored to have you as our guest and look forward to serving you again soon."
          />
     </>
