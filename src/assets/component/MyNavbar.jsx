@@ -23,7 +23,7 @@ const MyNavbar = ()=>{
               <NavLink exact 
                 className={({ isActive, isPending }) =>
                 isPending ? "link-nav" : isActive ? "active" : "link-nav"
-                } to={"/"}>Home</NavLink>
+                } to={"/nasme"}>Home</NavLink>
               <NavLink 
                 className={({ isActive, isPending }) =>
                 isPending ? "link-nav" : isActive ? "active" : "link-nav"
