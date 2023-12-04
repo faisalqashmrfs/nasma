@@ -16,7 +16,7 @@ function App()
       <>
       <MyNavbar />
       <Routes>
-        <Route exact path="/nasme" element={<Home/>}/>
+        <Route exact path="/" element={<Home/>}/>
         <Route path="/blog"  element={<Blog/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/gallery" element={<Gallery/>}/>

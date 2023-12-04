@@ -1,6 +1,6 @@
 import "./../Style/Nav-style.css";
 import nsma from "./../img/logo.svg";
-import {Link, NavLink } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 import fecebookIcon from './../img/uil_facebook.svg';
 import instagramIcon from './../img/instagram.svg';
 import linkedinIcon from './../img/uil_linkedin.svg';
@@ -23,7 +23,7 @@ const MyNavbar = ()=>{
               <NavLink exact 
                 className={({ isActive, isPending }) =>
                 isPending ? "link-nav" : isActive ? "active" : "link-nav"
-                } to={"/nasme"}>Home</NavLink>
+                } to={"/"}>Home</NavLink>
               <NavLink 
                 className={({ isActive, isPending }) =>
                 isPending ? "link-nav" : isActive ? "active" : "link-nav"
