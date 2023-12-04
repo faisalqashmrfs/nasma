@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nasma/static/css/main.eb0c5fc0.css",
-    "main.js": "/nasma/static/js/main.f1b59901.js",
+    "main.js": "/nasma/static/js/main.14a72a5d.js",
     "static/js/787.72d91c6a.chunk.js": "/nasma/static/js/787.72d91c6a.chunk.js",
     "static/media/Gallry.png": "/nasma/static/media/Gallry.239992e4e8a848e1ae41.png",
     "static/media/Group 512.png": "/nasma/static/media/Group 512.4dcf2a2e25a3b5b49371.png",
@@ -46,11 +46,11 @@
     "index.html": "/nasma/index.html",
     "static/media/Arrow 3.svg": "/nasma/static/media/Arrow 3.4513b2e70b47d88b6ff51a3fa12e0463.svg",
     "main.eb0c5fc0.css.map": "/nasma/static/css/main.eb0c5fc0.css.map",
-    "main.f1b59901.js.map": "/nasma/static/js/main.f1b59901.js.map",
+    "main.14a72a5d.js.map": "/nasma/static/js/main.14a72a5d.js.map",
     "787.72d91c6a.chunk.js.map": "/nasma/static/js/787.72d91c6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb0c5fc0.css",
-    "static/js/main.f1b59901.js"
+    "static/js/main.14a72a5d.js"
   ]
 }
