@@ -16,12 +16,12 @@ function App()
       <>
       <MyNavbar />
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route exact path="/nasme" element={<Home/>}/>
         <Route path="/blog"  element={<Blog/>}/>
-        <Route path="/contact"  element={<Contact/>}/>
-        <Route path="/gallery"  element={<Gallery/>}/>
-        <Route path="/explore"  element={<Explore/>}/>
-        <Route path="/booking"  element={<BookingSection/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/explore" element={<Explore/>}/>
+        <Route path="/booking" element={<BookingSection/>}/>
       </Routes>
       <TheFooter/>
       </>
