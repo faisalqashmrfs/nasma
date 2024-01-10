@@ -10,6 +10,7 @@ import iconimg2 from './../img/cards/Group (1).svg'
 import iconimg3 from './../img/cards/Vector (3).svg'
 import iconimg4 from './../img/cards/Group.svg'
 import Button from 'react-bootstrap/Button';
+import FilterBOKK from "../components/FilterBOKK/FilterBOKK";
 
 function BookingSection() {
   return (
@@ -19,6 +20,7 @@ function BookingSection() {
       deschero="Book for an Extraordinary Experiment!"
       shadowHero={shadowHero}
     />
+    <FilterBOKK/>
     <OurSection
       imghero={book0}
       title='Our Residential'

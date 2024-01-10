@@ -53,7 +53,7 @@ function TheFooter(){
           </div>
           <div className='below'>
                 <div className='createdby'>
-                    <div className='focalx'><p>created by: </p>
+                    <div className='focalx'><p>created by : </p>
                     <img src={focal} alt="" />
                      </div>
                     

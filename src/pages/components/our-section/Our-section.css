@@ -42,7 +42,7 @@
     line-height: 1.5rem;
 
 }
-.zh-info button
+.our-section .zh-info button
 {
     width: 11.6rem;
     height: 37px;
@@ -130,10 +130,8 @@
         font-size: 11px;
         width: 80%;
     }
-    .zh-info button
+    .our-section .zh-info button 
     {
-        width: 10rem;
-        height: 33px;
-        font-size: 12px;
+        display: none;
     }
 }

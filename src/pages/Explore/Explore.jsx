@@ -30,6 +30,7 @@ import iconimg2 from './../img/cards/Group (1).svg'
 import iconimg3 from './../img/cards/Vector (3).svg'
 import iconimg4 from './../img/cards/Group.svg'
 import Button from 'react-bootstrap/Button';
+import FilterEX from "../components/FilterEX/FilterEX";
 
 
 
@@ -41,6 +42,7 @@ function Explore() {
       deschero="Explore all sections of the resort"
       shadowHero={shadowHero}
     />
+    <FilterEX />
     <div className="fq-our-info">
         <div>
         <h2>Our Residential</h2>
@@ -57,7 +59,7 @@ function Explore() {
           title="Duplex Room"
           title2="2 floors suitable for families"
           desc="We warmly welcome you to our restaurant where we strive to create an unparalleled dining experience that delights the senses and nourishes the soul.
-          Our team of culinary experts is dedicated to sourcing only the freshest and highest quality ingredients, preparing each dish with care and attention to detail. Thank you for choosing our restaurant for your dining pleasure. 
+          Our team of culinary experts is dedicated to sourcing only the freshest and highest quality ingredients, preparing each dish with care and attention to detail.Thank you for choosing our restaurant for your dining pleasure. 
           We are honored to have you as our guest and look forward to serving you again soon."
          />
          <Booking 

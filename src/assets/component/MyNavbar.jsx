@@ -9,7 +9,7 @@ import { useState } from "react";
 
 const MyNavbar = () => {
 
-  const [togle , settogle] = useState(true)
+  const [togle , settogle] = useState(false)
 
   function changTogle(){
     settogle(!togle)

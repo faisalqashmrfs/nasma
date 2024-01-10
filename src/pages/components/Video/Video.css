@@ -4,7 +4,7 @@
     height: 100vh;
     position: relative;
     margin-bottom: 17rem;
-    
+    position: relative;
 }
 
 .video-section .top{
@@ -38,9 +38,6 @@
     line-height: normal;
 }
 .video-section .video{
-    background-image: url(./../../img/image.video/Mask\ group.png);
-    background-position: center center;
-    background-size: cover;
     width: 90%;
     margin: 150px auto 100px auto;
     height: 90%;
@@ -49,7 +46,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+}
+.video-section .video iframe
+{
+    width: 100%;
+    height: 100%;
 }
 .video-section .image{
     width: 100%;
@@ -57,7 +58,7 @@
 .video-section .middle-logo{
     width: 12rem;
     height: 12rem;
-
+    position: absolute;
 }
 .video-section .logo{
         width:100% ;
@@ -67,6 +68,7 @@
 @media screen  and (max-width:900px){
      .video-section{
         height: 386px;
+        margin-bottom: 200px;
     }
     .video-section .top{
         height: 97px;
@@ -79,19 +81,18 @@
         font-size: 11px;
     }
     .video-section .video{
-        height: 250px;
-        top: 50%;        
+        margin: 50px auto 50px auto;        
     }
     .video-section .middle-logo{
         width: 4rem;
         height: 4rem;
-    
     }
     
 }
 @media screen  and (max-width:600px){
     .video-section{
-       height: 186px;
+       height: 286px;
+       margin-bottom: 150px;
    }
    .video-section .top{
        height: 97px;
@@ -104,14 +105,7 @@
        font-size: 8px;
    }
    .video-section .video{
-       width: 90%;
-       height: 150px;
-       top: 55%;
-   }
-   .video-section .middle-logo{
-       width: 3rem;
-       height: 3rem;
-   
-   }
+    margin: 25px auto 50px auto;        
+}
 }
 

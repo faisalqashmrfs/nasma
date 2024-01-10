@@ -6,6 +6,7 @@ import Smcards from "../components/Smcards/Smcards";
 import imghero from './../img/Our-sectionImg/ex2.png';
 import OurSection from '../components/our-section/Our-section';
 import shadowHero from './../img/box-shado-hero.png';
+import FilterBlog from "../components/FilterBlog/FilterBlog";
 
 function Blog() {
   return (
@@ -15,6 +16,7 @@ function Blog() {
       deschero="Welcome to our blog where you can learn about the wonders of our resort"
       shadowHero={shadowHero}
    />
+   <FilterBlog/>
     <OurSection 
         imghero={imghero}
         title='Our Residential'

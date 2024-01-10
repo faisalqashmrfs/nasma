@@ -10,6 +10,7 @@ import img3 from './assets/img/Rectangle 84.png'
 import img4 from './assets/img/Rectangle 85.png'
 import OurSection from "../components/our-section/Our-section"
 import shadowHero from './../img/box-shado-hero.png';
+import FilterEX from "../components/FilterEX/FilterEX"
 
 function Gallery() {
   return (
@@ -20,6 +21,7 @@ function Gallery() {
                 and distinctive photos and videos "
                 shadowHero={shadowHero}
     />
+        <FilterEX />
     <OurSection
         imghero={imgheroY}
         title='Our Chalets'

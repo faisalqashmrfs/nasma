@@ -1,0 +1,156 @@
+.FilterBooking
+{
+    width: 90%;
+    border-radius: var(--Small-cards-Radius, 24px);
+    background: #FFF;
+    box-shadow: 14.176px 10.126px 16.201px 0px rgba(24, 29, 31, 0.14);
+    margin: -153px auto -153px auto;
+    padding: 0 30px;
+}
+.FilterBooking .top-filterBook
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    padding-top: 56px;
+}
+.FilterBooking .bottom-filterBook
+{
+    width: 100%;
+    height: 50%;
+    margin-top: 32px;
+}
+.FilterBooking .bottom-filterBook .dropsMnue
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FilterBooking .top-filterBook h2
+{
+    color: #282828;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.FilterBooking .top-filterBook h5
+{
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 60%;
+    margin-top: 7px;
+}
+.FilterBooking .top-filterBook button
+{
+    width: 172px;
+    height: 47px;
+    border-radius: 8px;
+    background: #004E6B;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+.FilterBooking .bottom-filterBook .dropsMnue div
+{
+    width: 300px;
+    border-bottom: 1px solid black;
+    padding-bottom: 9px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.FilterBooking .bottom-filterBook .dropsMnue div::after
+{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.527);
+    right: 5px;
+    top: 10px;
+    transform: rotate(45deg);
+}
+.FilterBooking .bottom-filterBook .dropsMnue div::before
+{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.527);
+    right: 12px;
+    top: 10px;
+    transform: rotate(-45deg);
+}
+.btn-finalone-filter
+{
+    display: none;
+}
+@media(max-width:1150px)
+{
+    .FilterBooking .top-filterBook button
+    {
+        display: none;
+    }
+    .FilterBooking .top-filterBook h5
+    {
+        width: 100%;
+    }
+    .FilterBooking .bottom-filterBook .dropsMnue
+    {
+        flex-direction: column;
+    }
+    .FilterBooking .bottom-filterBook .dropsMnue div
+    {
+        width: 90%;
+        margin: 20px 0;
+    }
+    .btn-finalone-filter
+    {
+        display: block;
+        width: 172px;
+        height: 47px;
+        border-radius: 8px;
+        background: #004E6B;
+        color: #FFF;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .FilterBooking
+    {
+        margin: -153px auto -315px auto;
+    }
+}
+@media(max-width:500px)
+{
+    .FilterBooking .top-filterBook h2
+    {
+        font-size: 16px;
+    }
+    .FilterBooking .top-filterBook h5
+    {
+        font-size: 10px;
+    }
+    .FilterBooking .bottom-filterBook h3
+    {
+        color: #282828;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}

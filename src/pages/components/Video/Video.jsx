@@ -1,6 +1,5 @@
 import React from 'react'
 import './Video.css'
-import logo from './../../img/image.video/Group 303.png';
 
 function VideoMA() {
   return (
@@ -28,9 +27,7 @@ function VideoMA() {
       </div>
 
       <div className='video'>
-        <div className='middle-logo'>
-        <img src={logo} alt='' className='logo' />
-        </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/fZMymaW2tkY?si=EM4MHqtL3F40c3D-&amp;controls=0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
   )
