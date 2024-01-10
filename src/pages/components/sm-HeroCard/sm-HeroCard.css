@@ -6,19 +6,20 @@
     align-items: center;
     margin-top: -10rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
 .Hero-card-fq .card-fqfq
 {
-    width: 23rem;
-    height: 30rem;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.733);
+    width: 21.5rem;
+    height: 24.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 10px 4px 23px 0px rgba(0, 0, 0, 0.1);
 }
 .Hero-card-fq .card-fqfq .image
 {
     width: 100%;
-    height: 18rem;
+    height: 15.7rem;
 }
 .Hero-card-fq .card-fqfq .image img
 {
@@ -29,14 +30,16 @@
 }
 .Hero-card-fq .card-fqfq h2
 {
-    font-size: 30px;
-    margin: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 13px 0 3px 13px;
 }
-.Hero-card-fq .card-fqfq p
+.Hero-card-fq .card-fqfq .FQ-cardPara
 {
-    font-size: 20px;
-    color: gray;
-    margin: 10px;
+    font-size: 1rem;
+    color: rgba(40, 40, 40, 1);
+    padding-left: 13px;
+    margin-bottom: 10px;
 }
 .Hero-card-fq .card-fqfq .fq-last-div
 {
@@ -48,32 +51,34 @@
 }
 .Hero-card-fq .card-fqfq .fq-last-div button
 {
-    width: 12rem;
-    font-size: 2rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     background: rgba(0, 78, 107, 1);
     color: white;
     padding: 5px;
+    border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
-.Hero-card-fq .card-fqfq .fq-last-div div 
+.Hero-card-fq .card-fqfq .fq-last-div .FQ-rightlass 
 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: max-content;
-    margin-top: 1rem;
+    padding-right: 17px; 
 }
 .Hero-card-fq .card-fqfq .fq-last-div div span
 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: rgba(0, 78, 107, 1);
-    margin-bottom: -1rem;
     border: none;
 }
 .Hero-card-fq .card-fqfq .fq-last-div div p
 {
-    font-size: 16px;
+    font-size: 10.5px;
     color: gray;
 }

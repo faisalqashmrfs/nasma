@@ -1,16 +1,14 @@
 .zh-section{
-    width: 95%;
-    height: 80vh;
+    width: 77.125rem;
     margin: 0px auto;  
-    margin-top: -15%;
+    margin-top: -10rem;
     margin-bottom: 150px;
     background-color: white;  
     border-radius: 2%;
     box-shadow: 14px 10px 16px 0px rgba(24, 29, 31, 0.14);
 }
 .zh-section2{
-    width: 95%;
-    height: 80vh;
+    width: 77.125rem;
     margin: 0px auto;  
     margin-top: 100px;
     margin-bottom: 150px;
@@ -29,7 +27,7 @@
 }
 .zh-booking-parent .zh-inner-img
 {
-    width: 45%;
+    width: 32.25rem;
     height: 100%;
 }
 .zh-booking-parent .zh-inner-img img{
@@ -42,57 +40,52 @@
 
 .zh-info
 {
-    width: 55%;
+    width: 44.87rem;
 }
 
 .zh-title{
-    padding: 100px 50px 50px 20px;
+    padding: 3.3rem 0px 0px 2rem;
 }
 
 
 .zh-booking-parent .zh-title h2{
-    font-family: Montserrat;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
-    line-height: 2.8rem;
-    letter-spacing: 0em;
+    line-height: 2.5rem;
     color: rgba(40, 40, 40, 1);
 }
 
-.zh-booking-parent .zh-title h5{
-
-    font-family: Montserrat;
-    font-size: 1.5rem;
+.zh-booking-parent .zh-title h5
+{
+    font-size: 1.4rem;
     font-weight: 400;
-    line-height: 1.7rem;
-    letter-spacing: 0em;
+    line-height: 1.6rem;
     color: rgba(40, 40, 40, 1);
-}
-.zh-booking-parent .zh-info{
-    margin-left: 2%;
 }
 
 .zh-booking-parent .zh-title .zh-desc{
-    width: 80%;
-    margin-top: 80px;
-    font-family: Montserrat;
-    font-size: 1.4rem;
+    width: 37.97rem;
+    margin-top: 2.84rem;
+    margin-left: -0.55rem;
+    font-size: 1.25rem;
     font-weight: 400;
-    line-height: 1.7rem;
-    letter-spacing: 0em;
+    line-height: 1.55rem;
 }
 
 .zh-booking-parent .zh-info .zh-icons{
     margin-top: 10%;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: -0.55rem;
 }
 
 
-.zh-booking-parent .zh-info .zh-icons span{
-    margin-right: 0.9rem;
+.zh-booking-parent .zh-info .zh-icons span p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
 }
 .zh-booking-parent .zh-info .zh-icons span img{
     margin-bottom: 0.9rem;
@@ -104,27 +97,27 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 5%;
-    width: 80%;
+    width: 90%;
 }
 
 
 .zh-booking-parent .zh-info .zh-btn-price button{
-    width: 14.32rem;
-    height: 3.3rem;
-    color: white;
-    background-color: #004E6B;
+    width: 14.32094rem;
+    height: 3.375rem;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 78, 107, 1);
     border: none;
-    border-radius: 5px;
-    font-family: Montserrat;
-    font-size: 2.12rem;
+    border-radius: 8px;
+    font-size: 2.125rem;
+    font-style: normal;
     font-weight: 600;
-    line-height: 2.6rem;
-    letter-spacing: 0em;
+    line-height: normal;
+    cursor:pointer;
 }
 
 
 .zh-booking-parent .zh-info .zh-btn-price p{
-    width: 16.31rem;
+    width: 17.31rem;
     height: 4.25rem;
     font-family: Montserrat;
     font-size:3.5rem ;
@@ -141,7 +134,7 @@
     line-height: 1.67rem;
     letter-spacing: 0em;
     color:#282828;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .zh-booking-parent .zh-icons span{
@@ -153,38 +146,133 @@
     flex-direction: column;
 }
 .zh-booking-parent .zh-icons  .zh-iconimg1 img{
-    width:1.5rem;
-    height: 5.31rem;
+    width: 1.5rem;
+    height: 3.625rem;
     
 }
 .zh-booking-parent .zh-icons  .zh-iconimg2 img{
-    width: 7.43rem;
-    height: 4.87rem;
+    width: 3.875rem;
+    height: 2.8rem;
     
 }
 .zh-booking-parent .zh-icons  .zh-iconimg3 img{
-    width: 6.5rem;
-    height: 4.37rem;
+    width: 5.125rem;
+    height: 2.3125rem;
 }
 .zh-booking-parent .zh-icons  .zh-iconimg4 img{
     width: 4.25rem;
-    height: 4.68rem;
+    height: 3rem;
     
 }
 
-@media (max-width:600px){
-    .zh-section{
-        width: 312px;
-        height: 24.5rem;
+@media(max-width:1300px)
+{
+    .zh-section,.zh-section2
+    {
+        width: 90%;
     }
+    .zh-booking-parent .zh-inner-img
+    {
+        width: 45%;
+    }
+    .zh-info
+    {
+        width: 55%;
+    }
+    .zh-title
+    {
+        padding: 20px ;
+    }
+    .zh-booking-parent .zh-title h2
+    {
+        font-size: 24px;
+    }
+    .zh-booking-parent .zh-title h5
+    {
+        font-size: 18px;
+    }
+    .zh-booking-parent .zh-title .zh-desc{
+        font-size: 16px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .zh-booking-parent .zh-info .zh-icons span img
+    {
+        width: 50px;
+        height: 50px;
+    }
+    .zh-booking-parent .zh-info .zh-icons span p
+    {
+        font-size: 12px;
+    }
+    .zh-booking-parent .zh-info .zh-btn-price button 
+    {
+        width: 180px;
+        height: 45px;
+        font-size: 20px;
+        padding: 0;
+    }
+    .zh-booking-parent .zh-info .zh-btn-price p 
+    {
+        width: max-content;
+        font-size: 28px;
+    }
+    .zh-booking-parent .zh-info .zh-btn-price p span 
+    {
+        width: max-content;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1025px)
+{
     .zh-booking-parent{
-        width: 312px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
-    .zh-booking-parent .zh-inner-img{
-        width: 312px;
+    .zh-booking-parent .zh-inner-img
+    {
+        width: 100%;
+        height: 500px;
+        border-top-left-radius: 2%;
+        border-top-right-radius: 2%;
+        border-bottom-left-radius: 0% !important;
     }
+    .zh-booking-parent .zh-inner-img img
+    {
+        width: 100%;
+        border-bottom-left-radius: 0% !important;
+        border-top-left-radius: 2%;
+        border-top-right-radius: 2%;
+    }
+    
+    .zh-info
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width:600px){
     .zh-booking-parent .zh-inner-img img{
         width: 312px;
         height: 10rem;
@@ -194,7 +282,6 @@
     }
     .zh-booking-parent .zh-title h2{
         width: 7rem;
-        height: 1.25rem;
         line-height: 1.2rem;
         font-size: 1rem;
         
@@ -254,4 +341,4 @@
         width:1.75rem ;
         height: 1.2rem;
     }
-}
+} */

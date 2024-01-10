@@ -3,7 +3,8 @@
     background-image:linear-gradient(rgba(0, 78, 107, 0.9),#215cbac4), url(./../../img/image.video/1\ 7.png) ;
     height: 100vh;
     position: relative;
-    margin-bottom: 200px;
+    margin-bottom: 17rem;
+    
 }
 
 .video-section .top{
@@ -23,14 +24,18 @@
     align-items: center;
 }
  .video-section h2{
-    color: white;
-    font-weight: 500;
-    font-size: 3em;
+    color: #FFF;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
 } 
 .video-section .text{
-    font-size: 1rem;
+    color: #FFF;
+    font-size: 1.375rem;
+    font-style: normal;
     font-weight: 600;
-    color: white;
+    line-height: normal;
 }
 .video-section .video{
     background-image: url(./../../img/image.video/Mask\ group.png);
@@ -44,6 +49,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .video-section .image{
     width: 100%;

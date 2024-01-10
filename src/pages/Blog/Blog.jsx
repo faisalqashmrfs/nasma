@@ -3,9 +3,9 @@ import imgheroy from "./../img/B.png"
 import smcardimg1 from './../img/smcardimg.png';
 import smcardimg1sm from './../img/img smscreen.png';
 import Smcards from "../components/Smcards/Smcards";
-import imghero from './../img/Group 512.png';
+import imghero from './../img/Our-sectionImg/ex2.png';
 import OurSection from '../components/our-section/Our-section';
-
+import shadowHero from './../img/box-shado-hero.png';
 
 function Blog() {
   return (
@@ -13,9 +13,12 @@ function Blog() {
     <Hero imghero={imgheroy}
       titlehero="Learn about Mountain Breeze"
       deschero="Welcome to our blog where you can learn about the wonders of our resort"
-    />
+      shadowHero={shadowHero}
+   />
     <OurSection 
         imghero={imghero}
+        title='Our Residential'
+        desc='Experience the ultimate in comfortable living in our residential properties.'
         />
       <Smcards
             smcardimg1={smcardimg1}

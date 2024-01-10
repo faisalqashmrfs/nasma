@@ -1,7 +1,7 @@
 import Hero from "../components/Hero/Hero"
 import imghero from "./../img/Gallry.png"
 import Galleryson from "./components/Galleryson"
-import imgheroY from "./../img/Explore.jpg"
+import imgheroY from "./../img/gallery.png"
 import img1 from './assets/img/Rectangle 82.png'
 import img2 from './assets/img/Rectangle 83.png'
 import img5 from './assets/img/Group 510.png'
@@ -9,7 +9,7 @@ import img6 from './assets/img/Rectangle 86.png'
 import img3 from './assets/img/Rectangle 84.png'
 import img4 from './assets/img/Rectangle 85.png'
 import OurSection from "../components/our-section/Our-section"
-
+import shadowHero from './../img/box-shado-hero.png';
 
 function Gallery() {
   return (
@@ -18,9 +18,12 @@ function Gallery() {
       titlehero="Resort Gallery"
       deschero="Welcome to our gallery of fun
                 and distinctive photos and videos "
+                shadowHero={shadowHero}
     />
     <OurSection
         imghero={imgheroY}
+        title='Our Chalets'
+        desc='Welcome to our cozy chalet where comfort and relaxation await.'
     />
     <Galleryson 
     img1={img1}

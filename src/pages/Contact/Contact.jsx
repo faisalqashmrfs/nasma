@@ -12,6 +12,10 @@ import facebookicon from './../img/Facebook (1).svg';
 import youtubeicon from './../img/Subtract.svg';
 import instagramicon from './../img/Subtract (1).svg';
 import linkedinicon from './../img/LinkedIn (1).svg'
+import shadowHero from './../img/box-shado-hero.png';
+import contantex1 from './../img/Our-sectionImg/ex2.png';
+
+
 
 function Contact() {
   return (
@@ -20,17 +24,23 @@ function Contact() {
       titlehero="Contact Us"
       deschero="Would you like to keep in touch? we'd love to hear from you.
       Here's how you can reach us..."
+      shadowHero={shadowHero}
     />
     <ContactMA/>
 
     <OurSection
-        imghero={imghero}
+        imghero={contantex1}
+        btn1={true}
+        title='Location'
+        desc='Syria, Kurdaha, Alqlelaa village.'
     />
     <div className="map-nasma">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4076.3947752456324!2d36.14158825741965!3d35.43110557600169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15240ee780a37133%3A0xe1477df1e40905ca!2sMountain%20Breeze%20resort!5e1!3m2!1sar!2s!4v1701259072876!5m2!1sar!2s"></iframe>
     </div>
     <OurSection
-        imghero={imghero}
+        imghero={contantex1}
+        title='Keep in touch'
+        desc='& stay informed of everything new'
     />
     <ContactInfo img={mountainbreezeicon}
                  icontitle="Mountain Breeze Resort"

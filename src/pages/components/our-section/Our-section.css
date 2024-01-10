@@ -1,10 +1,9 @@
 .our-section
 {
     position: relative;
-    width: 99vw;
-    height: 60vh;
+    width:100%;
+    height: 23.375rem;
     z-index: -1;
-    margin-top: -10px;
 }
 .our-section img
 {
@@ -16,7 +15,6 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0, 76, 106, 0.90);
 }
 .our-section .zh-info{
     position: absolute;
@@ -30,50 +28,112 @@
     align-items: center;
     
 }
-.our-section .zh-info button{
-    width: 12rem;
-    height: 2.5rem;
-    /* border-radius: 0.5rem; */
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 600;
-    padding: 1rem;
-}
 .our-section .zh-info h2 
 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 2.5rem;
     padding-bottom: .5rem;
 }
 .our-section .zh-info p
 {
-    font-family: Montserrat;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
 
 }
 .zh-info button
 {
+    width: 11.6rem;
+    height: 37px;
     background-color: rgba(0, 76, 106, 0.99);
-    border: solid 1px white;
-    border-radius: 8px;
-    color: white;
+    border: solid 1px rgba(255, 253, 253, 1);
+    border-radius: 6px;
+    color: rgba(255, 253, 253, 1);
     text-align: center;
-    font-family: Montserrat;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 44px;
+    font-size: 1.45rem;
+    font-weight: 600;
+    line-height: 27.66px;
+
 }
+.zh-info .button1
+{
+    width: 11.6rem;
+    height: 37px;
+    background-color: black;
+    border: solid 1px rgba(255, 253, 253, 1);
+    border-radius: 6px;
+    color: rgba(255, 253, 253, 1);
+    text-align: center;
+    font-size: 1.45rem;
+    font-weight: 600;
+    line-height: 27.66px;
+}
+
+
 .map-nasma {
     width: 100%;
     height: 600px;
-    padding: 50px 100px;
+    padding: 0px 100px 50px 100px;
+    margin-top: -150px;
+    margin-bottom: 100px;
 }
 .map-nasma iframe{
     width: 100%;
     height: 100%;
     border: none;
+}
+
+@media(max-width:1270px)
+{
+    .our-section .zh-info h2 
+    {
+        font-size: 24px;
+    }
+    .our-section .zh-info p
+    {
+        font-size: 18px;
+    }
+    .zh-info button
+    {
+        width: 10rem;
+        height: 33px;
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:800px)
+{
+    .our-section .zh-info h2 
+    {
+        font-size: 20px;
+    }
+    .our-section .zh-info p
+    {
+        font-size: 14px;
+        width: 80%;
+    }
+    .zh-info button
+    {
+        width: 10rem;
+        height: 33px;
+        font-size: 14px;
+    }
+}
+@media(max-width:550px)
+{
+    .our-section .zh-info h2 
+    {
+        font-size: 18px;
+    }
+    .our-section .zh-info p
+    {
+        font-size: 11px;
+        width: 80%;
+    }
+    .zh-info button
+    {
+        width: 10rem;
+        height: 33px;
+        font-size: 12px;
+    }
 }
