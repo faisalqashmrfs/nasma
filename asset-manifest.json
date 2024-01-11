@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nasma/static/css/main.e78d877a.css",
-    "main.js": "/nasma/static/js/main.99fc8623.js",
+    "main.css": "/nasma/static/css/main.48db3e21.css",
+    "main.js": "/nasma/static/js/main.31403939.js",
     "static/js/787.72d91c6a.chunk.js": "/nasma/static/js/787.72d91c6a.chunk.js",
     "static/media/Gallry.png": "/nasma/static/media/Gallry.239992e4e8a848e1ae41.png",
     "static/media/Group 512.png": "/nasma/static/media/Group 512.4dcf2a2e25a3b5b49371.png",
@@ -71,12 +71,12 @@
     "static/media/location.svg": "/nasma/static/media/location.112341d1b941525aa5c7c49cbbe83e9b.svg",
     "static/media/Vector (3).svg": "/nasma/static/media/Vector (3).5866643f96ec7d05972e6c80787340cb.svg",
     "static/media/Arrow 3.svg": "/nasma/static/media/Arrow 3.4513b2e70b47d88b6ff51a3fa12e0463.svg",
-    "main.e78d877a.css.map": "/nasma/static/css/main.e78d877a.css.map",
-    "main.99fc8623.js.map": "/nasma/static/js/main.99fc8623.js.map",
+    "main.48db3e21.css.map": "/nasma/static/css/main.48db3e21.css.map",
+    "main.31403939.js.map": "/nasma/static/js/main.31403939.js.map",
     "787.72d91c6a.chunk.js.map": "/nasma/static/js/787.72d91c6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e78d877a.css",
-    "static/js/main.99fc8623.js"
+    "static/css/main.48db3e21.css",
+    "static/js/main.31403939.js"
   ]
 }
