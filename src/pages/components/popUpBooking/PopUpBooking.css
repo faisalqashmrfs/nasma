@@ -25,3 +25,11 @@
     z-index: 1000;
     transition: 1s !important;
 }
+@media(max-width:900px)
+{
+    .popup-fq
+    {
+        top: 50%;
+        height: max-content;
+    }
+}

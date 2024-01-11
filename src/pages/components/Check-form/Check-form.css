@@ -110,6 +110,11 @@
 }
 
 @media screen  and (max-width:900px){
+    #check .form
+    {
+        padding: 20px 20px 0 20px;
+        gap: 10px;
+    }
     #check .row{
         width: 100%;
         display: flex;
@@ -120,7 +125,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 10px;
     }
     #check .groub2{
         width: 100%;
@@ -136,5 +141,49 @@
     #check .inp{
         width: 96%;
     }
-
+    #check .form .top-text
+    {
+        font-size: 25px;
+    }
+    #check .text
+    {
+        font-size: 18px;
+    }
+    #check .placeholder
+    {
+        font-size: 14px;
+    }
+    #check button
+    {
+        width: 195px;
+        height: 41px;
+        font-size: 24px;
+        margin: 0px auto 20px auto;
+    }
+}
+@media screen  and (max-width:400px)
+{
+    #check .form .top-text
+    {
+        font-size: 18px;
+    }
+    #check .text
+    {
+        font-size: 14px;
+    }
+    #check .placeholder
+    {
+        font-size: 12px;
+    }
+    #check button
+    {
+        width: 195px;
+        height: 41px;
+        font-size: 24px;
+        margin: 0px auto 20px auto;
+    }
+    #check .text-bottom
+    {
+        font-size: 14px;
+    }
 }
