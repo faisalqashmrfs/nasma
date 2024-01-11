@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nasma/static/css/main.48db3e21.css",
+    "main.css": "/nasma/static/css/main.414682c2.css",
     "main.js": "/nasma/static/js/main.31403939.js",
     "static/js/787.72d91c6a.chunk.js": "/nasma/static/js/787.72d91c6a.chunk.js",
     "static/media/Gallry.png": "/nasma/static/media/Gallry.239992e4e8a848e1ae41.png",
@@ -71,12 +71,12 @@
     "static/media/location.svg": "/nasma/static/media/location.112341d1b941525aa5c7c49cbbe83e9b.svg",
     "static/media/Vector (3).svg": "/nasma/static/media/Vector (3).5866643f96ec7d05972e6c80787340cb.svg",
     "static/media/Arrow 3.svg": "/nasma/static/media/Arrow 3.4513b2e70b47d88b6ff51a3fa12e0463.svg",
-    "main.48db3e21.css.map": "/nasma/static/css/main.48db3e21.css.map",
+    "main.414682c2.css.map": "/nasma/static/css/main.414682c2.css.map",
     "main.31403939.js.map": "/nasma/static/js/main.31403939.js.map",
     "787.72d91c6a.chunk.js.map": "/nasma/static/js/787.72d91c6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48db3e21.css",
+    "static/css/main.414682c2.css",
     "static/js/main.31403939.js"
   ]
 }
