@@ -19,6 +19,7 @@ function Blog() {
    <FilterBlog/>
     <OurSection 
         imghero={imghero}
+        class2="our-section3"
         title='Our Residential'
         desc='Experience the ultimate in comfortable living in our residential properties.'
         />

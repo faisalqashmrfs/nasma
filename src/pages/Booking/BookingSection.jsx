@@ -23,6 +23,7 @@ function BookingSection() {
     <FilterBOKK/>
     <OurSection
       imghero={book0}
+      class2="our-section2"
       title='Our Residential'
       desc='With the best luxury spa, Gym and Pool experiences.'
     />

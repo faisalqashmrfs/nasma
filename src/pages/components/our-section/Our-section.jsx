@@ -1,8 +1,10 @@
 import './Our-section.css';
 
 export default function OurSection(props){
+
+    const class1 = "our-section"
     return(
-        <div className="our-section">
+        <div className={props.class2 || class1}>
             <img src={props.imghero}/>
             <div className="llayer-fq"></div>
             <div className="zh-info">

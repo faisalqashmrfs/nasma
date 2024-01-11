@@ -167,16 +167,16 @@
 @media (max-width:600px){
     .zh-contact-info-section{
         width: 19.5rem;
-        margin: 0 auto;
+        margin: -120px auto 40px auto;
     }
 
     .zh-contact-info-section .zh-mountain-breeze-icon img{
-        width: 2.23rem;
-        height: 0.93rem;
+        width: 3.23rem;
+        margin-top: 10px;
     }
 
     .zh-contact-info-section .zh-mountain-breeze-icon p{
-        width: 5.85rem;
+        width: max-content;
         font-size: 0.56rem;
     }
     .zh-contact-info-section .zh-contact-4-info{
@@ -195,7 +195,7 @@
     }
 
     .zh-contact-info-section .zh-contact-icons{
-        width: 15rem;
+        width: 17rem;
         height: 3.125rem;
     }
 
