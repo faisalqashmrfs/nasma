@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nasma/static/css/main.414682c2.css",
-    "main.js": "/nasma/static/js/main.31403939.js",
+    "main.css": "/nasma/static/css/main.2780e585.css",
+    "main.js": "/nasma/static/js/main.74da8a30.js",
     "static/js/787.72d91c6a.chunk.js": "/nasma/static/js/787.72d91c6a.chunk.js",
     "static/media/Gallry.png": "/nasma/static/media/Gallry.239992e4e8a848e1ae41.png",
     "static/media/Group 512.png": "/nasma/static/media/Group 512.4dcf2a2e25a3b5b49371.png",
@@ -16,6 +16,7 @@
     "static/media/ex2.png": "/nasma/static/media/ex2.8c2859b24d897d46acfe.png",
     "static/media/room8.png": "/nasma/static/media/room8.e3361888237ad4c596ea.png",
     "static/media/room2.png": "/nasma/static/media/room2.4918282ef7b3ccbb37e6.png",
+    "static/media/bot1.png": "/nasma/static/media/bot1.a996a522551fcc49ec50.png",
     "static/media/box-shado-hero.png": "/nasma/static/media/box-shado-hero.58ae9f32e692d7afa31b.png",
     "static/media/room11.png": "/nasma/static/media/room11.e11d0c8f5d4f398e9332.png",
     "static/media/room3.png": "/nasma/static/media/room3.6171ea0c04eae8371d30.png",
@@ -32,10 +33,14 @@
     "static/media/room7.png": "/nasma/static/media/room7.669730e21068c1c02a4c.png",
     "static/media/gallery.png": "/nasma/static/media/gallery.09e72db70626b15a6320.png",
     "static/media/room13.png": "/nasma/static/media/room13.2b8c092b62f6852b13cd.png",
+    "static/media/bot2.png": "/nasma/static/media/bot2.b6dc2351fb928fb87b24.png",
+    "static/media/top3.png": "/nasma/static/media/top3.452006d9ca97d07c3064.png",
     "static/media/ex5.png": "/nasma/static/media/ex5.7392234a14db524d0c54.png",
     "static/media/room10.png": "/nasma/static/media/room10.feb8340538381463d1f7.png",
     "static/media/Group 510.png": "/nasma/static/media/Group 510.fd1666f2c6469b35e4d9.png",
     "static/media/Home1.png": "/nasma/static/media/Home1.7b30d15d4fe7f0555589.png",
+    "static/media/top2.png": "/nasma/static/media/top2.a15cee3014358b408b78.png",
+    "static/media/top1.png": "/nasma/static/media/top1.6ca740b74140892d071b.png",
     "static/media/ex7.png": "/nasma/static/media/ex7.40f4279c3f87829db32a.png",
     "static/media/ex1.png": "/nasma/static/media/ex1.737a39673def7f562167.png",
     "static/media/smcardimg.png": "/nasma/static/media/smcardimg.dfab0ea53a8094080c2c.png",
@@ -71,12 +76,12 @@
     "static/media/location.svg": "/nasma/static/media/location.112341d1b941525aa5c7c49cbbe83e9b.svg",
     "static/media/Vector (3).svg": "/nasma/static/media/Vector (3).5866643f96ec7d05972e6c80787340cb.svg",
     "static/media/Arrow 3.svg": "/nasma/static/media/Arrow 3.4513b2e70b47d88b6ff51a3fa12e0463.svg",
-    "main.414682c2.css.map": "/nasma/static/css/main.414682c2.css.map",
-    "main.31403939.js.map": "/nasma/static/js/main.31403939.js.map",
+    "main.2780e585.css.map": "/nasma/static/css/main.2780e585.css.map",
+    "main.74da8a30.js.map": "/nasma/static/js/main.74da8a30.js.map",
     "787.72d91c6a.chunk.js.map": "/nasma/static/js/787.72d91c6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.414682c2.css",
-    "static/js/main.31403939.js"
+    "static/css/main.2780e585.css",
+    "static/js/main.74da8a30.js"
   ]
 }
