@@ -1,13 +1,14 @@
 import './Hero.css';
 
 
-const Hero = (props) => {
+function Hero(props){
+  console.log(props.togle)
   return (
-    <div className="zh-hero">
+    <div className={ props.togle ? "zh-hero bluuuuer" : "zh-hero"}>
         <div className='FQ-100height'>
           <img className='zh-img' src={props.imghero} alt='#'/>
           { props.shadowHero && <img className='zh-img2'src={props.shadowHero} alt='#'/>}
-        </div>
+          zh-hero    </div>
         <div className="zh-info">
             <h1>{props.titlehero}</h1>
             <p>{props.deschero}</p>

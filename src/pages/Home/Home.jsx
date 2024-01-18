@@ -17,13 +17,14 @@ import VideoMA from '../components/Video/Video';
 import './Home.css'
 import HeroCard from '../components/sm-HeroCard/sm-HeroCard';
 
-const Home = () => {
+const Home = ({togle}) => {
 
   return (
-    <>
+    <main className='bluuuuur'>
       <Hero imghero={imghero}
         titlehero="Feel The Breeze"
         deschero="Scroll To Discover"
+        togle={togle}
         scrollimg={scrollimg}
       />
       <HeroCard />
@@ -83,7 +84,7 @@ const Home = () => {
         title2="in the fresh air"
         desc="As you peruse our menu, you'll discover an array of exquisite dishes that showcase the finest flavors and textures. . Our chefs are passionate about creating culinary masterpieces that are not only delicious but also visually stunning. To complement our menu, we offer an extensive wine list that features a selection of the finest local and international wines. Our knowledgeable staff are happy to assist you in selecting the perfect wine to enhance your meal and elevate your dining experience."
       />
-    </>
+    </main>
   )
 }
 

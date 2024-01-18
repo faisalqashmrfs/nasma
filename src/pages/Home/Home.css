@@ -75,10 +75,11 @@
 .Disactivtoup
 {
     position: fixed;
-    width: 200px;
+    width: 100px;
     height: 50px;
     bottom: 100px;
-    transition: .5s;
+    right: 100px;
+    transition: .2s;
     opacity: 0;
 }
 

@@ -14,6 +14,9 @@ import { useEffect, useState } from 'react';
 
 function App()
 {
+  const [togle , settogle] = useState(false)
+
+
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
@@ -47,9 +50,12 @@ function App()
     >
       Back to Top
     </button>
-      <MyNavbar />
+      <MyNavbar 
+      togle={togle}
+      settogle={settogle}
+      />
       <Routes>
-        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/" element={<Home togle={togle}/>}/>
         <Route path="/blog"  element={<Blog/>}/>
         <Route path="/blog/Articl"  element={<ArticleBlog/>}/>
         <Route path="/contact" element={<Contact/>}/>

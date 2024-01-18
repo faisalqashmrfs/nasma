@@ -7,9 +7,7 @@ import linkedinIcon from './../img/uil_linkedin.svg';
 import youtubeIcon from './../img/youtube.svg';
 import { useState } from "react";
 
-const MyNavbar = () => {
-
-  const [togle , settogle] = useState(false)
+const MyNavbar = ({togle,settogle}) => {
 
   function changTogle(){
     settogle(!togle)
@@ -75,10 +73,10 @@ const MyNavbar = () => {
         <div className="head">
           <div className="lang-change">EN | AR</div>
           <div className="logo-mobile"> <img src={nsma} alt="####" /></div>
-          <div className="toglr-mobile"
+          <div 
           onClick={() => changTogle()}
-          >
-            <svg 
+          className="toglr-mobile">
+            <svg
             xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15" fill="none">
               <path d="M19.6227 14.2602H0.377278C0.168895 14.2602 0 14.0913 0 13.8829C0 13.6746 0.168895 13.5057 0.377278 13.5057H19.6227C19.8311 13.5057 20 13.6746 20 13.8829C20 14.0913 19.8311 14.2602 19.6227 14.2602ZM19.6227 7.50737H0.377278C0.168895 7.50737 0 7.33847 0 7.13009C0 6.92171 0.168895 6.75281 0.377278 6.75281H19.6227C19.8311 6.75281 20 6.92171 20 7.13009C20 7.33847 19.8311 7.50737 19.6227 7.50737ZM19.6227 0.754556H0.377278C0.168895 0.754556 0 0.585661 0 0.377278C0 0.168895 0.168895 0 0.377278 0H19.6227C19.8311 0 20 0.168895 20 0.377278C20 0.585661 19.8311 0.754556 19.6227 0.754556Z" fill="white"
               />
