@@ -48,7 +48,7 @@
     width: 10px;
     height: 2px;
     background-color: rgba(0, 0, 0, 0.527);
-    right: 5px;
+    right: 12px;
     top: 10px;
     transform: rotate(45deg);
 }
@@ -59,7 +59,7 @@
     width: 10px;
     height: 2px;
     background-color: rgba(0, 0, 0, 0.527);
-    right: 12px;
+    right: 5px;
     top: 10px;
     transform: rotate(-45deg);
 }

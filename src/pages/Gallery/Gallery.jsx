@@ -24,6 +24,7 @@ function Gallery() {
         <FilterEX />
     <OurSection
         imghero={imgheroY}
+        class2="our-section4"
         title='Our Chalets'
         desc='Welcome to our cozy chalet where comfort and relaxation await.'
     />

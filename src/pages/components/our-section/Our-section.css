@@ -9,7 +9,7 @@
 {
     position: relative;
     width:100%;
-    height: 43.375rem;
+    height: 36.375rem;
     z-index: -1;
 }
 .our-section3
@@ -19,19 +19,26 @@
     height: 28.375rem;
     z-index: -1;
 }
-.our-section img,.our-section2 img,.our-section3 img
+.our-section4
+{
+    position: relative;
+    width:100%;
+    height: 32.375rem;
+    z-index: -1;
+}
+.our-section img,.our-section2 img,.our-section3 img,.our-section4 img
 {
     width: 100%;
     height: 100%;
     position: absolute;
 }
-.our-section .llayer-fq,.our-section2 .llayer-fq,.our-section3 .llayer-fq
+.our-section .llayer-fq,.our-section2 .llayer-fq,.our-section3 .llayer-fq,.our-section4 .llayer-fq
 {
     position: absolute;
     width: 100%;
     height: 100%;
 }
-.our-section .zh-info,.our-section2 .zh-info,.our-section3 .zh-info
+.our-section .zh-info,.our-section2 .zh-info,.our-section3 .zh-info,.our-section4 .zh-info
 {
     position: absolute;
     width: 90%;
@@ -48,7 +55,7 @@
 {
     position: absolute;
     width: 90%;
-    top: 55%;
+    top: 45%;
     left: 5%;
     z-index: 50;
     color: white;
@@ -70,21 +77,34 @@
     align-items: center;
     
 }
-.our-section .zh-info h2 ,.our-section2 .zh-info h2 ,.our-section3 .zh-info h2 
+.our-section4 .zh-info
+{
+    position: absolute;
+    width: 90%;
+    top: 40%;
+    left: 5%;
+    z-index: 50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.our-section .zh-info h2 ,.our-section2 .zh-info h2 ,.our-section3 .zh-info h2  , .our-section4 .zh-info h2 
 {
     font-size: 2rem;
     font-weight: 600;
     line-height: 2.5rem;
     padding-bottom: .5rem;
 }
-.our-section .zh-info p,.our-section2 .zh-info p,.our-section3 .zh-info p
+.our-section .zh-info p,.our-section2 .zh-info p ,.our-section3 .zh-info h2  ,.our-section4 .zh-info p
 {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5rem;
 
 }
-.our-section .zh-info button,.our-section2 .zh-info button,.our-section3 .zh-info button
+.our-section .zh-info button,.our-section2 .zh-info button,.our-section3 .zh-info button,.our-section4 .zh-info button
 {
     width: 11.6rem;
     height: 37px;
@@ -114,16 +134,17 @@
 
 
 .map-nasma {
-    width: 100%;
+    width: 90%;
     height: 600px;
-    padding: 0px 100px 50px 100px;
-    margin-top: -150px;
-    margin-bottom: 100px;
+    margin: -150px auto 100px auto;
+    border-radius: 16.201px;
+    box-shadow: 14.176px 10.126px 16.201px 0px rgba(24, 29, 31, 0.14);
 }
 .map-nasma iframe{
     width: 100%;
     height: 100%;
     border: none;
+    border-radius: 16.201px;
 }
 
 @media(max-width:1270px)
@@ -132,7 +153,7 @@
     {
         font-size: 24px;
     }
-    .our-section .zh-info p,.our-section2 .zh-info p,.our-section3 .zh-info p
+    .our-section .zh-info p,.our-section2 .zh-info p,.our-section3 .zh-info p,.our-section4 .zh-info p
     {
         font-size: 18px;
     }
@@ -148,13 +169,35 @@
         margin-bottom: 50px;
     }
 }
+@media(max-width:1150px)
+{
+    .our-section2
+    {
+        height: 48.375rem;
+    }
+    .our-section2 .zh-info
+    {
+        top: 55%;
+    }
+}
+@media(max-width:992px)
+{
+    .our-section4
+    {
+        height: 23.375rem;
+    }
+    .our-section4 .zh-info
+    {
+        top: 25%;
+    }
+}
 @media(max-width:800px)
 {
-    .our-section .zh-info h2 ,.our-section2 .zh-info h2 ,.our-section3 .zh-info h2 
+    .our-section .zh-info h2 ,.our-section2 .zh-info h2 ,.our-section3 .zh-info h2 ,.our-section4 .zh-info h2 
     {
         font-size: 20px;
     }
-    .our-section .zh-info p,.our-section2 .zh-info p,.our-section3 .zh-info p
+    .our-section .zh-info p,.our-section2 .zh-info p,.our-section3 .zh-info p,.our-section4 .zh-info p
     {
         font-size: 14px;
         width: 80%;
@@ -166,18 +209,29 @@
         font-size: 14px;
     }
 }
+@media(max-width:600px)
+{
+    .our-section4
+    {
+        height: 15.375rem;
+    }
+    .our-section4 .zh-info
+    {
+        top: 25%;
+    }
+}
 @media(max-width:550px)
 {
-    .our-section .zh-info h2 ,.our-section2 .zh-info h2 ,.our-section3 .zh-info h2 
+    .our-section .zh-info h2 ,.our-section2 .zh-info h2 ,.our-section3 .zh-info h2  ,.our-section4 .zh-info h2 
     {
         font-size: 18px;
     }
-    .our-section .zh-info p,.our-section2 .zh-info p,.our-section3 .zh-info p
+    .our-section .zh-info p,.our-section2 .zh-info p,.our-section3 .zh-info p,.our-section4 .zh-info p
     {
         font-size: 11px;
         width: 100%;
     }
-    .our-section .zh-info button ,.our-section2 .zh-info button ,.our-section3 .zh-info button 
+    .our-section .zh-info button ,.our-section2 .zh-info button ,.our-section3 .zh-info button ,.our-section4 .zh-info button 
     {
         display: none;
     }

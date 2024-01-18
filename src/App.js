@@ -9,15 +9,49 @@ import Gallery from "./pages/Gallery/Gallery";
 import BookingSection from "./pages/Booking/BookingSection";
 import TheFooter from "./assets/component/TheFooter";
 import { Route, Routes } from "react-router-dom";
+import ArticleBlog from "./pages/ArticleBlog/ArticleBlog";
+import { useEffect, useState } from 'react';
 
 function App()
 {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 1000) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
     return(
       <>
+      <button
+      onClick={scrollToTop}
+      className={showButton ? 'activtoup' : 'Disactivtoup' }
+    >
+      Back to Top
+    </button>
       <MyNavbar />
       <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route path="/blog"  element={<Blog/>}/>
+        <Route path="/blog/Articl"  element={<ArticleBlog/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
         <Route path="/explore" element={<Explore/>}/>

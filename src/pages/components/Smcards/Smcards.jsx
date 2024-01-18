@@ -1,5 +1,6 @@
 import React from 'react'
 import './Smcards.css'
+import { Link } from 'react-router-dom'
 
 const Smcards = (props) => {
   const class1 = "zh-smcards-container"
@@ -17,8 +18,8 @@ const Smcards = (props) => {
                 <h6 className='zh-h6-bigscreen'>{props.desc1}</h6>
                 <h6 className='zh-h6-smscreen'>{props.desc1sm}</h6>
                 <p>{props.date}</p>
-                <button className='zh-btn-bigscreen'>{props.btn}</button>
-                <button className='zh-btn-smscreen'>{props.btnsm}</button>
+                <button className='zh-btn-bigscreen'><Link to='/blog/Articl/#'>{props.btn}</Link></button>
+                <button className='zh-btn-smscreen'><Link to='/blog/Articl'>{props.btnsm}</Link></button>
             </div>
         </div>
 
@@ -33,8 +34,8 @@ const Smcards = (props) => {
                 <h6 className='zh-h6-bigscreen'>{props.desc2}</h6>
                 <h6 className='zh-h6-smscreen'>{props.desc2sm}</h6>
                 <p>{props.date}</p>
-                <button className='zh-btn-bigscreen'>{props.btn}</button>
-                <button className='zh-btn-smscreen'>{props.btnsm}</button>
+                <button className='zh-btn-bigscreen'><Link to='/blog/Articl'>{props.btn}</Link></button>
+                <button className='zh-btn-smscreen'><Link to='/blog/Articl'>{props.btnsm}</Link></button>
         </div>
         </div>
 
@@ -50,8 +51,8 @@ const Smcards = (props) => {
                 <h6 className='zh-h6-bigscreen'>{props.desc3}</h6>
                 <h6 className='zh-h6-smscreen'>{props.desc3sm}</h6>
                 <p>{props.date}</p>
-                <button className='zh-btn-bigscreen'>{props.btn}</button>
-                <button className='zh-btn-smscreen'>{props.btnsm}</button>
+                <button className='zh-btn-bigscreen'><Link to='/blog/Articl'>{props.btn}</Link></button>
+                <button className='zh-btn-smscreen'><Link to='/blog/Articl'>{props.btnsm}</Link></button>
         </div>
         </div>
     </div>

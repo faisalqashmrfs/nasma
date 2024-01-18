@@ -64,7 +64,7 @@
     font-weight: 600;
     line-height: 1.75rem;
     letter-spacing: 0em;
-    margin:3% auto;
+    margin: 50px auto 100px auto;
     transition: all .3s;
 }
 
@@ -76,8 +76,8 @@
 @media (max-width:600px){
     .zh-gallery{
         width: 19.5rem;
+        margin-top: -50px;
     }
-
     .zh-gallery .zh-img1{
         height: 7.8125rem;
     }
@@ -112,5 +112,6 @@
         height: 1.5rem;
         font-size: 0.87rem;
         line-height: 1.06rem;
+        margin: 30px auto 50px auto;
     }
 }

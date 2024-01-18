@@ -16,8 +16,9 @@ import OurSection from '../components/our-section/Our-section';
 import VideoMA from '../components/Video/Video';
 import './Home.css'
 import HeroCard from '../components/sm-HeroCard/sm-HeroCard';
-import PopUpBooking from '../components/popUpBooking/PopUpBooking';
+
 const Home = () => {
+
   return (
     <>
       <Hero imghero={imghero}
@@ -37,6 +38,7 @@ const Home = () => {
       <OurSection
         imghero={HomeOurImg1}
         btn={true}
+        btn1={false}
         title='Our Residential'
         desc='Experience the ultimate in comfortable living in our residential properties.'
       />

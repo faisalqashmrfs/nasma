@@ -43,10 +43,10 @@ function Explore() {
       shadowHero={shadowHero}
     />
     <FilterEX />
-    <div className="fq-our-info">
+    <div className="fq-our-info2">
         <div>
-        <h2>Our Residential</h2>
-        <p>Experience the ultimate in comfortable living in our residential properties.</p>
+        <h2><span>RESORT</span> FACILITIES</h2>
+        <p className='p1' >Experience the ultimate in comfortable living in our residential properties.</p>
         </div>
         <div><button>View More</button></div>
     </div>

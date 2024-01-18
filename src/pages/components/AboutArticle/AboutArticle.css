@@ -1,0 +1,85 @@
+.AboutArticle
+{
+    padding: 42px 0px 42px 0px;
+    width: 90%;
+    margin: 0 auto;
+} 
+.AboutArticle .title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AboutArticle .title h2
+{
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.AboutArticle .title span
+{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.AboutArticle .Descrip
+{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 32px 0;
+}
+.AboutArticle .tags
+{
+    color: #8E8E8E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media(max-width:800px)
+{
+    .AboutArticle .title h2
+{
+    font-size: 24px;
+}
+.AboutArticle .title span
+{
+    font-size: 16px;
+}
+.AboutArticle .Descrip
+{
+    font-size: 16px;
+    margin: 24px 0;
+}
+.AboutArticle .tags
+{
+    font-size: 14px;
+}
+}
+@media(max-width:520px)
+{
+    .AboutArticle .title h2
+{
+    font-size: 15px;
+}
+.AboutArticle .title span
+{
+    font-size: 12px;
+}
+.AboutArticle .Descrip
+{
+    font-size: 10px;
+    margin: 24px 0;
+}
+.AboutArticle .tags
+{
+    font-size: 9px;
+}
+}

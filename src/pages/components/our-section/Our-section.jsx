@@ -12,8 +12,8 @@ export default function OurSection(props){
                 <h2>{props.title}</h2>
                 <p>{props.desc}</p>
                 </div>
-                <div>{ props.btn && <button>View More</button>}</div>
-                <div>{ props.btn1 && <button className='button1'>Get Direction</button>}</div>
+                { props.btn && <div><button>View More</button></div>}
+                { props.btn1 && <div><button className='button1'>Get Direction</button></div>}
             </div>
         </div>
     )

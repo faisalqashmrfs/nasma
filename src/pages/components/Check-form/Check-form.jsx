@@ -5,7 +5,7 @@ import SelectMA from '../Select/Select'
 function CheckMAFFF({onClose}) {
   return (
     <div id='check'>
-
+      <span onClick={onClose} className='Fq-closwone'>X</span>
       <div className='form'>
         <p className='top-text'>Check availability Form:</p>
           <div className='col'>
