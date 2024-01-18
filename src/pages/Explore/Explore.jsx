@@ -34,13 +34,15 @@ import FilterEX from "../components/FilterEX/FilterEX";
 
 
 
-function Explore() {
+function Explore({togle}) {
   return (
     <>
     <Hero imghero={imghero}
       titlehero="Explore The Resort"
       deschero="Explore all sections of the resort"
+      togle={togle}
       shadowHero={shadowHero}
+      
     />
     <FilterEX />
     <div className="fq-our-info2">

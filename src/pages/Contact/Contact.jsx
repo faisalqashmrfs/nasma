@@ -17,7 +17,7 @@ import contantex1 from './../img/Our-sectionImg/ex2.png';
 
 
 
-function Contact() {
+function Contact({togle}) {
   return (
     <>
     <Hero imghero={imghero}
@@ -25,6 +25,7 @@ function Contact() {
       deschero="Would you like to keep in touch? we'd love to hear from you.
       Here's how you can reach us..."
       shadowHero={shadowHero}
+      togle={togle}
     />
     <ContactMA/>
 

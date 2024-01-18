@@ -12,13 +12,14 @@ import iconimg4 from './../img/cards/Group.svg'
 import Button from 'react-bootstrap/Button';
 import FilterBOKK from "../components/FilterBOKK/FilterBOKK";
 
-function BookingSection() {
+function BookingSection({togle}) {
   return (
     <>
     <Hero imghero={imghero}
       titlehero="BOOKING"
       deschero="Book for an Extraordinary Experiment!"
       shadowHero={shadowHero}
+      togle={togle}
     />
     <FilterBOKK/>
     <OurSection

@@ -56,12 +56,12 @@ function App()
       />
       <Routes>
         <Route exact path="/" element={<Home togle={togle}/>}/>
-        <Route path="/blog"  element={<Blog/>}/>
-        <Route path="/blog/Articl"  element={<ArticleBlog/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/gallery" element={<Gallery/>}/>
-        <Route path="/explore" element={<Explore/>}/>
-        <Route path="/booking" element={<BookingSection/>}/>
+        <Route path="/blog"  element={<Blog togle={togle}/>}/>
+        <Route path="/blog/Articl"  element={<ArticleBlog togle={togle}/>}/>
+        <Route path="/contact" element={<Contact togle={togle}/>}/>
+        <Route path="/gallery" element={<Gallery togle={togle}/>}/>
+        <Route path="/explore" element={<Explore togle={togle}/>}/>
+        <Route path="/booking" element={<BookingSection togle={togle}/>}/>
       </Routes>
       <TheFooter/>
       </>

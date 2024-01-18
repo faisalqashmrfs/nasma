@@ -12,31 +12,32 @@ import OurSection from "../components/our-section/Our-section"
 import shadowHero from './../img/box-shado-hero.png';
 import FilterEX from "../components/FilterEX/FilterEX"
 
-function Gallery() {
+function Gallery({togle}) {
   return (
     <>
-    <Hero imghero={imghero}
-      titlehero="Resort Gallery"
-      deschero="Welcome to our gallery of fun
+      <Hero imghero={imghero}
+        titlehero="Resort Gallery"
+        deschero="Welcome to our gallery of fun
                 and distinctive photos and videos "
-                shadowHero={shadowHero}
-    />
-        <FilterEX />
-    <OurSection
+        shadowHero={shadowHero}
+        togle={togle}
+      />
+      <FilterEX />
+      <OurSection
         imghero={imgheroY}
         class2="our-section4"
         title='Our Chalets'
         desc='Welcome to our cozy chalet where comfort and relaxation await.'
-    />
-    <Galleryson 
-    img1={img1}
-    img2={img2} 
-    img3={img3}
-    img4={img4}          
-    img5={img5}          
-    img6={img6}  
-    btn="View More"     
-    />
+      />
+      <Galleryson
+        img1={img1}
+        img2={img2}
+        img3={img3}
+        img4={img4}
+        img5={img5}
+        img6={img6}
+        btn="View More"
+      />
     </>
   )
 }

@@ -8,13 +8,14 @@ import OurSection from '../components/our-section/Our-section';
 import shadowHero from './../img/box-shado-hero.png';
 import FilterBlog from "../components/FilterBlog/FilterBlog";
 
-function Blog() {
+function Blog({togle}) {
   return (
     <>
     <Hero imghero={imgheroy}
       titlehero="Learn about Mountain Breeze"
       deschero="Welcome to our blog where you can learn about the wonders of our resort"
       shadowHero={shadowHero}
+      togle={togle}
    />
    <FilterBlog/>
     <OurSection 
