@@ -253,6 +253,39 @@
   background-size: cover;
   clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0px 100%);
   }
+  .fi:hover {
+    .firstimg{
+      transition: 1s;
+      opacity: 0;
+    }
+    .mytext{
+      transition: 1s;
+      opacity: 0;
+     visibility: visible;
+    }
+  }
+  .se:hover{
+    .firstimg{
+      transition: 1s;
+      opacity: 0;
+    }
+    .mytext{
+      transition: 1s;
+      opacity: 0;
+     visibility: visible;
+    }
+  }
+  .th:hover{
+    .firstimg{
+      transition: 1s;
+      opacity: 0;
+    }
+    .mytext{
+      transition: 1s;
+      opacity: 0;
+     visibility: visible;
+    }
+  }
 }
 @media (max-width:800px)
 {

@@ -164,7 +164,6 @@
         font-size: 1.1rem;
     }
     .map-nasma {
-        padding: 0px 50px 50px 50px;
         margin-top: -150px;
         margin-bottom: 50px;
     }
@@ -208,6 +207,9 @@
         height: 33px;
         font-size: 14px;
     }
+    .map-nasma {
+        height: 400px;
+    }
 }
 @media(max-width:600px)
 {
@@ -236,7 +238,7 @@
         display: none;
     }
     .map-nasma {
-        padding: 0px 20px 20px 20px;
+        height: 250px;
         margin-top: -150px;
         margin-bottom: 20px;
     }
