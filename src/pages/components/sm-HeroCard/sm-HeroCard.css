@@ -1,13 +1,12 @@
 .Hero-card-fq
 {
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: -10rem;
-    margin-bottom: 2rem;
     flex-wrap: wrap;
     gap: 3rem;
+    margin: -10rem auto 2rem auto;
 }
 .Hero-card-fq .card-fqfq
 {
