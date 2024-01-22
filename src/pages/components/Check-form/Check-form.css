@@ -1,6 +1,5 @@
 #check{
     width: 100%;
-    height: 100%;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -17,6 +16,7 @@
     right: 70px;
     color: black;
     font-size: 30px;
+    cursor: pointer;
 }
 #check .form{
     padding:80px 90px 0px 90px;
@@ -68,10 +68,24 @@
     transform: translateY(-60%);
     font-size: 16px;
     font-weight: 200;
+    margin-top: 6px;
     color: rgba(37, 37, 37, 1);
 }
 #check .input-groub{
     position: relative;
+}
+#check .input-groub select {
+    width: 100% !important;
+    padding: 9.5px 0;
+    border: none;
+    border-bottom: 2px solid rgb(61, 61, 61);
+    font-size: 19px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+}
+#check .input-groub select span{
+    color: red ;
 }
 
 #check .placeholder {
@@ -104,18 +118,46 @@
 }
 #check button{
     width: 275px;
-    height: 61px;
+    height: 51px;
     background-color: rgba(0, 78, 107, 1);
     color: white;
     font-weight: 600;
     font-size: 34px;
     border-radius: 5px;
     border: none;
-    margin: 0 auto 80px auto;
+    margin: 0 auto 50px auto;
     cursor: pointer;
 }
 #check button:hover{
     background-color: rgb(189, 83, 12);
+}
+
+
+.HJ_date{
+    width: 100% !important;
+    background-color: transparent;
+    border: none;
+    border-bottom:  1px solid #282828;
+    outline: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.HJ_date::before{
+    content: "Check-out date : ";
+    color: rgb(131, 131, 131);
+}
+.HJ_date2{
+    width: 100% !important;
+    background-color: transparent;
+    border: none;
+    border-bottom:  1px solid #282828;
+    outline: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.HJ_date2::before{
+    content: "Check-in date : ";
+    color: rgb(131, 131, 131);
 }
 
 @media screen  and (max-width:900px){
@@ -170,9 +212,10 @@
     #check button
     {
         width: 195px;
-        height: 41px;
+        height: 45px;
+        padding: 10px;
         font-size: 24px;
-        margin: 0px auto 20px auto;
+        margin: 0px auto 20px auto ;
     }
 }
 @media screen  and (max-width:600px)
@@ -205,6 +248,16 @@
     }
     #check .text-bottom
     {
+        font-size: 14px;
+    }
+    #check button
+    {
+        width: 165px;
+        height: 40px;
+        font-size: 18px;
+        margin: 0px auto 20px auto;
+    }
+    #check .input-groub select {
         font-size: 14px;
     }
 }

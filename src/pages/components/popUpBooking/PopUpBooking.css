@@ -1,7 +1,7 @@
 .popup-fq
 {
     width: 80%;
-    height: 797px;
+    height: 767px;
     position: absolute;
     top: 1000;
     left: 50%;
@@ -27,9 +27,9 @@
 }
 @media(max-width:900px)
 {
-    .popup-fq
+    /* .popup-fq
     {
         top: 50%;
         height: max-content;
-    }
+    } */
 }

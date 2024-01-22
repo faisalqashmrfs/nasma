@@ -31,10 +31,21 @@ import iconimg3 from './../img/cards/Vector (3).svg'
 import iconimg4 from './../img/cards/Group.svg'
 import Button from 'react-bootstrap/Button';
 import FilterEX from "../components/FilterEX/FilterEX";
-
+import { CircleLoader } from 'react-spinners';
+import { useEffect, useState } from 'react';
+import TheFooter from "../../assets/component/TheFooter";
 
 
 function Explore({togle}) {
+
+    const [lood , setlood] = useState(false)
+  useEffect(() => {
+    setlood(true)
+    setTimeout(() => {
+      setlood(false)
+    },3000)
+  },[])
+
   return (
     <>
     <Hero imghero={imghero}
@@ -44,6 +55,7 @@ function Explore({togle}) {
       shadowHero={shadowHero}
       
     />
+    {lood ? <div className='Looder'><CircleLoader color="#36d7b7" position="apsoliote"/></div> :<section >
     <FilterEX />
     <div className="fq-our-info2">
         <div>
@@ -214,6 +226,9 @@ function Explore({togle}) {
         Ironing Boards, Mini Bar, Flat Screen & Free In house Movies,
         WiFi and Housekeeping by request."
          />
+         <TheFooter/>
+    </section>}
+    
     </>
   )
 }

@@ -12,7 +12,7 @@ export default function OurSection(props){
                 <h2>{props.title}</h2>
                 <p>{props.desc}</p>
                 </div>
-                { props.btn && <div><button>View More</button></div>}
+                { props.btn && <div><button className='button2'>View More</button></div>}
                 { props.btn1 && <div><button className='button1'>Get Direction</button></div>}
             </div>
         </div>

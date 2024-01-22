@@ -12,24 +12,24 @@ function SelectMA() {
     setSelectedOption2(e.target.value);
   };
 
+  const [selectedDate2, setSelectedDate2] = useState(null);
+  const handleDateChange2 = (e) => {
+    setSelectedDate2(e.target.value);
+  }
+
   return (
-    <div  className="select-option">
+    <div className="select-option">
       <div>
-      <select value={selectedOption} onChange={handleSelectChange} >
-        <option value="" className="option " disabled hidden>Check-in date *</option>
-        <option value="option1">date 1</option>
-        <option value="option2">date 2</option>
-        <option value="option3">date 3</option>
-      </select>
+      <input type='date' value={selectedDate2} onChange={handleDateChange2} className='HJ_date2' />
       </div>
 
       <div>
-      <select value={selectedOption2} onChange={handleSelectChange2}>
-        <option value="" disabled hidden>Room type</option>
-        <option value="option1">type 1</option>
-        <option value="option2">type 2</option>
-        <option value="option3">type 3</option>
-      </select>
+        <select value={selectedOption2} onChange={handleSelectChange2}>
+          <option value="" disabled hidden>Room type</option>
+          <option value="option1">type 1</option>
+          <option value="option2">type 2</option>
+          <option value="option3">type 3</option>
+        </select>
       </div>
     </div>
 

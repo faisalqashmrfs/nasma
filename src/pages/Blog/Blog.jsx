@@ -7,8 +7,20 @@ import imghero from './../img/Our-sectionImg/ex2.png';
 import OurSection from '../components/our-section/Our-section';
 import shadowHero from './../img/box-shado-hero.png';
 import FilterBlog from "../components/FilterBlog/FilterBlog";
+import { useEffect, useState } from 'react';
+import { CircleLoader } from 'react-spinners';
+import TheFooter from "../../assets/component/TheFooter";
 
 function Blog({togle}) {
+
+  const [lood , setlood] = useState(false)
+  useEffect(() => {
+    setlood(true)
+    setTimeout(() => {
+      setlood(false)
+    },3000)
+  },[])
+
   return (
     <>
     <Hero imghero={imgheroy}
@@ -17,7 +29,9 @@ function Blog({togle}) {
       shadowHero={shadowHero}
       togle={togle}
    />
-   <FilterBlog/>
+   {lood ? <div className='Looder'><CircleLoader color="#36d7b7" position="apsoliote"/></div> :
+    <section>
+      <FilterBlog/>
     <OurSection 
         imghero={imghero}
         class2="our-section3"
@@ -99,6 +113,9 @@ function Blog({togle}) {
              desc3="when did we start and how did we start and how ..."
              desc3sm="A simple and peaceful life how did we start and how..."
     />
+    <TheFooter/>
+    </section>
+   }
     </>
   )
 }

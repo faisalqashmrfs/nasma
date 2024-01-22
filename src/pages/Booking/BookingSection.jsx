@@ -11,8 +11,21 @@ import iconimg3 from './../img/cards/Vector (3).svg'
 import iconimg4 from './../img/cards/Group.svg'
 import Button from 'react-bootstrap/Button';
 import FilterBOKK from "../components/FilterBOKK/FilterBOKK";
+import { useEffect, useState } from 'react';
+import { CircleLoader } from 'react-spinners';
+import TheFooter from "../../assets/component/TheFooter";
 
 function BookingSection({togle}) {
+
+  const [lood , setlood] = useState(false)
+  useEffect(() => {
+    setlood(true)
+    setTimeout(() => {
+      setlood(false)
+    },3000)
+  },[])
+
+
   return (
     <>
     <Hero imghero={imghero}
@@ -21,6 +34,7 @@ function BookingSection({togle}) {
       shadowHero={shadowHero}
       togle={togle}
     />
+    {lood ? <div className='Looder'><CircleLoader color="#36d7b7" position="apsoliote"/></div> :<section>
     <FilterBOKK/>
     <OurSection
       imghero={book0}
@@ -92,6 +106,8 @@ function BookingSection({togle}) {
               View More
             </button>
          </div>
+         <TheFooter/>
+    </section>}
     </>
   )
 }

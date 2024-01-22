@@ -116,7 +116,13 @@
     font-size: 1.45rem;
     font-weight: 600;
     line-height: 27.66px;
+    cursor: pointer !important;
 
+}
+.button2
+{
+    cursor: pointer !important;
+    z-index: 1000;
 }
 .zh-info .button1
 {
@@ -130,6 +136,7 @@
     font-size: 1.45rem;
     font-weight: 600;
     line-height: 27.66px;
+    cursor: pointer !important;
 }
 
 

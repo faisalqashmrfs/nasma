@@ -77,7 +77,7 @@
     width: 90%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     margin-left: -0.55rem;
 }
 
@@ -86,9 +86,6 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.25rem;
-}
-.zh-booking-parent .zh-info .zh-icons span img{
-    margin-bottom: 0.9rem;
 }
 
 
@@ -148,21 +145,23 @@
 .zh-booking-parent .zh-icons  .zh-iconimg1 img{
     width: 1.5rem;
     height: 3.625rem;
+    margin-bottom: 6px;
     
 }
 .zh-booking-parent .zh-icons  .zh-iconimg2 img{
     width: 3.875rem;
     height: 2.8rem;
-    
+    margin-bottom: 12px;
 }
 .zh-booking-parent .zh-icons  .zh-iconimg3 img{
     width: 5.125rem;
     height: 2.3125rem;
+    margin-bottom: 12px;
 }
 .zh-booking-parent .zh-icons  .zh-iconimg4 img{
     width: 4.25rem;
     height: 3rem;
-    
+    margin-bottom: 6px;
 }
 
 @media(max-width:1366px){
