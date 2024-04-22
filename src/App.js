@@ -14,8 +14,8 @@ import nsma from "./assets/img/logo.svg";
 import "./assets/Style/Nav-style.css";
 import fecebookIcon from './assets/img/uil_facebook.svg';
 import instagramIcon from './assets/img/instagram.svg';
-import linkedinIcon from './assets/img/uil_linkedin.svg';
-import telegramIcon from './assets/img/youtube.svg';
+import Whatsapp from './assets/img/uil_Whatsapp.png';
+import telegramIcon from './assets/img/uil_Telegram.png';
 import { FaTelegramPlane } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa6";
@@ -100,14 +100,15 @@ function App() {
                   </Link>
                 </li>
                 {/* <li><img src={linkedinIcon} alt="linkedinIcon" /></li> */}
-                <li className="IconStranger FQmagString">
+                <li>
                   <Link target="_blank" to={'https://whatsapp.com/channel/0029VaONWu14CrfeIRVEJM2k'}>
-                    <FaWhatsapp color="#004E6B" size={15} />
+                    <img src={Whatsapp} alt="Whatsapp" />
+                    
                   </Link>
                 </li>
-                <li className="IconStranger">
+                <li >
                   <Link target="_blank" to={'https://t.me/mountainbreezeresort'}>
-                    <FaTelegramPlane color="#004E6B" />
+                  <img src={telegramIcon} alt="Whatsapp" />
                   </Link>
                 </li>
               </ul>
@@ -227,10 +228,27 @@ function App() {
             <span>Keep In Touch</span>
             <div className="fq-iconssocial">
               <ul className="mobile-nav-social">
-                <li><img src={fecebookIcon} alt="fecebookIcon" /></li>
-                <li><img src={instagramIcon} alt="instagramIcon" /></li>
-                <li><img src={linkedinIcon} alt="linkedinIcon" /></li>
-                <li className="IconStranger"><FaTelegramPlane color="#004E6B" /></li>
+              <li>
+                  <Link target="_blank" to={'https://www.facebook.com/MountainBreezeResort1'}>
+                    <img src={fecebookIcon} alt="fecebookIcon" />
+                  </Link>
+                </li>
+                <li>
+                  <Link to={'https://www.instagram.com/mountain.breeze.resort?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='}>
+                    <img src={instagramIcon} alt="instagramIcon" />
+                  </Link>
+                </li>
+                <li>
+                  <Link target="_blank" to={'https://whatsapp.com/channel/0029VaONWu14CrfeIRVEJM2k'}>
+                    <img src={Whatsapp} alt="Whatsapp" />
+                    
+                  </Link>
+                </li>
+                <li >
+                  <Link target="_blank" to={'https://t.me/mountainbreezeresort'}>
+                  <img src={telegramIcon} alt="Whatsapp" />
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

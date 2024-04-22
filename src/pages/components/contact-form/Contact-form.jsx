@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact-form.css'
 
-function ContactMA() {
+function ContactMA({ChosingLan}) {
   return (
     <div id='contact'>
 

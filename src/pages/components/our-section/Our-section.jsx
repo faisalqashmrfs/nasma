@@ -13,7 +13,7 @@ export default function OurSection(props) {
                     <p>{props.desc}</p>
                 </div>
                 {props.btn && <div><button className='button2'>{props.ChosingLan === 'en' ? "View More" : "رؤية المزيد" }</button></div>}
-                {props.btn1 && <div><button className='button1'>Get Direction</button></div>}
+                {props.btn1 && <div><button className='button1'>{props.ChosingLan === 'en' ? "Get Direction" : "احصل على الاتجاه" }</button></div>}
             </div>
         </div>
     )

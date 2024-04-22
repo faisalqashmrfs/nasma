@@ -8,9 +8,9 @@ import phoneicon from './../img/call.svg';
 import mapicon from './../img/map.svg';
 import caricon from './../img/car.svg';
 import facebookicon from './../img/Facebook (1).svg';
-import youtubeicon from './../img/uil_Whatsapp.png';
+import youtubeicon from './../img/';
 import instagramicon from './../img/Subtract (1).svg';
-import linkedinicon from './../img/uil_Telegram.png'
+import linkedinicon from './../img/LinkedIn (1).svg'
 import shadowHero from './../img/box-shado-hero.png';
 import contantex1 from './../img/Our-sectionImg/ex2.png';
 import { useEffect, useState } from 'react';

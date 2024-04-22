@@ -98,11 +98,12 @@
     font-weight: 400;
     font-size: 20px;
 }
-#check input:focus + .placeholder{
+
+#check input + .placeholder{
     top: -16px;
     background-color: white;
-
 }
+
 #check span{
     color: red;
 }

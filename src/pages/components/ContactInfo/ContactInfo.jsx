@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './ContactInfo.css'
 
 const ContactInfo = (props) => {
@@ -40,14 +41,30 @@ const ContactInfo = (props) => {
             </div>
         </div>
         </div>
-
-        <div className='zh-contact-icons'>
-            <img src={props.facebookicon}/>
-            <img src={props.youtubeicon}/>
-            <img src={props.instagramicon}/>
-            <img src={props.linkedinicon}/>
-            
-        </div>
+            <ul className="zh-contact-icons">
+                <li>
+                  <Link target="_blank" to={'https://www.facebook.com/MountainBreezeResort1'}>
+                  <img src={props.facebookicon}/>
+                  </Link>
+                </li>
+                <li>
+                  <Link to={'https://www.instagram.com/mountain.breeze.resort?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='}>
+                  <img src={props.instagramicon}/>
+                  </Link>
+                </li>
+                {/* <li><img src={linkedinIcon} alt="linkedinIcon" /></li> */}
+                <li>
+                  <Link target="_blank" to={'https://whatsapp.com/channel/0029VaONWu14CrfeIRVEJM2k'}>
+                  <img src={props.youtubeicon}/>
+                    
+                  </Link>
+                </li>
+                <li >
+                  <Link target="_blank" to={'https://t.me/mountainbreezeresort'}>
+                  <img src={props.linkedinicon}/>
+                  </Link>
+                </li>
+              </ul>
         </div>
 
     </div>
