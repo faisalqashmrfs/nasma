@@ -132,14 +132,14 @@
     }
     .FilterBooking
     {
-        margin: -153px auto -315px auto;
+        margin: -153px auto -325px auto;
     }
 }
-@media(max-width:785px)
+@media(max-width:800px)
 {
     .FilterBooking
     {
-        margin: -253px auto -265px auto;
+        margin: -253px auto -285px auto;
     }
 }
 @media(max-width:500px)

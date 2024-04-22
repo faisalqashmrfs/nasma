@@ -7,6 +7,17 @@
     justify-content: space-between;
     margin: 100px auto;
 }
+.fq-our-infoAr
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px auto;
+    text-align: end;
+}
 .fq-our-info2
 {
     display: flex;
@@ -73,7 +84,7 @@
     z-index: 10;
     color: white;
     background-color: rgba(0, 78, 107, 1);
-    border: none;
+    border: 1px solid white;
     border-radius: 50%;
     cursor: pointer;
     transform: translateY(0);

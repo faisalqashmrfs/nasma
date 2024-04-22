@@ -1,7 +1,7 @@
 import React from 'react'
 import './Video.css'
 
-function VideoMA() {
+function VideoMA({ChosingLan}) {
   return (
     <div className='video-section'>
       <div className='top'>
@@ -9,19 +9,19 @@ function VideoMA() {
 
         <div className='col'>
           <h2 > 300+</h2>
-          <p className='text'>Employee</p>
+          <p className='text'>{ChosingLan === 'en' ? 'Employee': 'موظف' }</p>
         </div>
         <div className='col'>
           <h2>10k+</h2>
-          <p className='text'>Happy Clients</p>
+          <p className='text'>{ChosingLan === 'en' ? 'Happy Clients': 'عميل راض' }</p>
         </div>
         <div className='col'>
           <h2>5000+</h2>
-          <p className='text'>People Capacity</p>
+          <p className='text'>{ChosingLan === 'en' ? 'People Capacity': 'السعة الكلية ' }</p>
         </div>
         <div className='col'>
           <h2>3000+</h2>
-          <p className='text'>Any statics</p>
+          <p className='text'>{ChosingLan === 'en' ? 'Any statics': 'احصائيات' }</p>
         </div>
 
       </div>

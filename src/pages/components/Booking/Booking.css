@@ -1,14 +1,23 @@
 .zh-section{
     width: 77.125rem;
+    height: 35.5rem;
     margin: 0px auto;  
-    margin-top: -10rem;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     background-color: white;  
     border-radius: 16px;
     box-shadow: 14px 10px 16px 0px rgba(24, 29, 31, 0.14);
 }
+.Api_sectionFQ
+{
+    margin-top: -17rem;
+}
+.Api_sectionFQ2
+{
+    margin-top: -12rem;
+}
 .zh-section2{
     width: 77.125rem;
+    height: 32rem;
     margin: 0px auto;  
     margin-top: 100px;
     margin-bottom: 150px;
@@ -16,46 +25,78 @@
     border-radius: 16px;
     box-shadow: 14px 10px 16px 0px rgba(24, 29, 31, 0.14);
 }
-
 .zh-booking-parent{
     width:100%;
     height: 100%;
     margin: 0 auto;
     box-shadow: 5px 4px rgba(128, 128, 128, 0.044);
     display: flex !important;
-    border-radius: 16px;    
+    border-radius: 16px;   
 }
-.zh-booking-parent .zh-inner-img
+.zh-booking-parentAR{
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 5px 4px rgba(128, 128, 128, 0.044);
+    display: flex !important;
+    flex-direction: row-reverse;
+    border-radius: 16px;  
+    text-align: end;  
+}
+.zh-booking-parent .zh-inner-img , .zh-booking-parentAR .zh-inner-img
 {
     width: 32.25rem;
     height: 100%;
     border-radius: 16px;
 }
-.zh-booking-parent .zh-inner-img img{
+.zh-booking-parent .zh-inner-img img
+{
     
     width: 100%;
     height: 100%;
     border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
-
+.zh-booking-parentAR .zh-inner-img img
+{
+    
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
 .zh-info
 {
     width: 44.87rem;
 }
 
-.zh-title{
-    padding: 3.3rem 0px 0px 2rem;
+.zh-booking-parent .zh-title{
+    padding: 1rem 0px 0px 2rem;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.zh-booking-parentAR .zh-title{
+    height: 90%;
+    padding: 1rem 2rem 0px 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
 }
 
 
-.zh-booking-parent .zh-title h2{
+.zh-booking-parent .zh-title h2,.zh-booking-parentAR .zh-title h2
+{
     font-size: 2rem;
     font-weight: 600;
     line-height: 2.5rem;
     color: rgba(40, 40, 40, 1);
 }
 
-.zh-booking-parent .zh-title h5
+.zh-booking-parent .zh-title h5 , .zh-booking-parentAR .zh-title h5
 {
     font-size: 1.4rem;
     font-weight: 400;
@@ -63,7 +104,8 @@
     color: rgba(40, 40, 40, 1);
 }
 
-.zh-booking-parent .zh-title .zh-desc{
+.zh-booking-parent .zh-title .zh-desc 
+{
     width: 37.97rem;
     margin-top: 2.84rem;
     margin-left: -0.55rem;
@@ -71,9 +113,19 @@
     font-weight: 400;
     line-height: 1.55rem;
 }
-
-.zh-booking-parent .zh-info .zh-icons{
-    margin-top: 10%;
+.zh-booking-parentAR .zh-title .zh-desc
+{
+    width: 37.97rem;
+    margin-top: 2.84rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.55rem;
+    text-align: end;
+    
+}
+.zh-booking-parent .zh-info .zh-icons , .zh-booking-parentAR .zh-info .zh-icons
+{
+    margin-top: 3rem;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -82,15 +134,25 @@
 }
 
 
-.zh-booking-parent .zh-info .zh-icons span p{
+.zh-booking-parent .zh-info .zh-icons span p , .zh-booking-parentAR .zh-info .zh-icons span p
+{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.25rem;
 }
 
-
-.zh-booking-parent .zh-info .zh-btn-price{
+.zh-booking-parent .zh-info .zh-btn-price , .zh-booking-parentAR .zh-info .zh-btn-price
+{
     display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 90%;
+}
+.zh-booking-parentAR .zh-info .zh-btn-price
+{
+    display: flex; 
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     margin-top: 5%;
@@ -98,7 +160,8 @@
 }
 
 
-.zh-booking-parent .zh-info .zh-btn-price button{
+.zh-booking-parent .zh-info .zh-btn-price button , .zh-booking-parentAR .zh-info .zh-btn-price button
+{
     width: 14.32094rem;
     height: 3.375rem;
     color: rgba(255, 255, 255, 1);
@@ -110,13 +173,61 @@
     font-weight: 600;
     line-height: normal;
     cursor:pointer;
+} 
+.zh-booking-parent .FQcardPricsflex
+{
+    display: flex;
+    width: 18rem;
+    justify-content: center;
+    align-items: center;
+}
+.zh-booking-parent .FQcardPricsflex span
+{
+    font-size: 1.37rem;
+    font-weight: 400;
+    line-height: 1.67rem;
+    letter-spacing: 0em;
+    color:#282828;
+    padding-left: 10px;
+    width: 12rem;
+    align-self: flex-end;
+    padding-bottom: .61rem;
+}
+.zh-booking-parentAR .FQcardPricsflex
+{
+    display: flex;
+    width: 18rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.zh-booking-parentAR .FQcardPricsflex span
+{
+    font-size: 1.37rem;
+    font-weight: 400;
+    line-height: 1.67rem;
+    letter-spacing: 0em;
+    color:#282828;
+    padding-left: 10px;
+    width: 8rem;
+    align-self: flex-end;
+    padding-bottom: .61rem;
 }
 
-
-.zh-booking-parent .zh-info .zh-btn-price p{
-    width: 17.31rem;
+.zh-booking-parent .zh-info .zh-btn-price p
+{
+    width: 8.5rem;
     height: 4.25rem;
-    font-family: Montserrat;
+    font-size:3.5rem ;
+    font-weight: 600;
+    line-height: 4.26rem;
+    letter-spacing: 0em;
+    color:#004E6B;
+}
+.zh-booking-parentAR .zh-info .zh-btn-price p
+{
+    width: 7.5rem;
+    height: 4.25rem;
     font-size:3.5rem ;
     font-weight: 600;
     line-height: 4.26rem;
@@ -124,17 +235,7 @@
     color:#004E6B;
 }
 
-.zh-booking-parent .zh-info .zh-btn-price p span{
-    font-family: Montserrat;
-    font-size: 1.37rem;
-    font-weight: 400;
-    line-height: 1.67rem;
-    letter-spacing: 0em;
-    color:#282828;
-    padding-left: 10px;
-}
-
-.zh-booking-parent .zh-icons span{
+.zh-booking-parent .zh-icons span , .zh-booking-parentAR .zh-icons span{
     font-weight: 400;
     line-height: 1.32rem;
     display: flex;
@@ -142,23 +243,23 @@
     align-items: center;
     flex-direction: column;
 }
-.zh-booking-parent .zh-icons  .zh-iconimg1 img{
+.zh-booking-parent .zh-icons  .zh-iconimg1 img , .zh-booking-parentAR .zh-icons  .zh-iconimg1 img{
     width: 1.5rem;
     height: 3.625rem;
     margin-bottom: 6px;
     
 }
-.zh-booking-parent .zh-icons  .zh-iconimg2 img{
+.zh-booking-parent .zh-icons  .zh-iconimg2 img , .zh-booking-parentAR .zh-icons  .zh-iconimg2 img{
     width: 3.875rem;
     height: 2.8rem;
     margin-bottom: 12px;
 }
-.zh-booking-parent .zh-icons  .zh-iconimg3 img{
+.zh-booking-parent .zh-icons  .zh-iconimg3 img , .zh-booking-parentAR .zh-icons  .zh-iconimg3 img{
     width: 5.125rem;
     height: 2.3125rem;
     margin-bottom: 12px;
 }
-.zh-booking-parent .zh-icons  .zh-iconimg4 img{
+.zh-booking-parent .zh-icons  .zh-iconimg4 img , .zh-booking-parentAR .zh-icons  .zh-iconimg4 img{
     width: 4.25rem;
     height: 3rem;
     margin-bottom: 6px;
@@ -169,14 +270,14 @@
     {
         width: 90%;
     }
+    .zh-section
+    {
+        height: 30rem;
+    }
 }
 @media(max-width:1300px)
 {
-    .zh-section,.zh-section2
-    {
-        width: 90%;
-    }
-    .zh-booking-parent .zh-inner-img
+    .zh-booking-parent .zh-inner-img , .zh-booking-parentAR .zh-inner-img
     {
         width: 45%;
     }
@@ -188,41 +289,42 @@
     {
         padding: 20px ;
     }
-    .zh-booking-parent .zh-title h2
+    .zh-booking-parent .zh-title h2 , .zh-booking-parentAR .zh-title h2
     {
         font-size: 24px;
     }
-    .zh-booking-parent .zh-title h5
+    .zh-booking-parent .zh-title h5 , .zh-booking-parentAR .zh-title h5
     {
         font-size: 18px;
     }
-    .zh-booking-parent .zh-title .zh-desc{
+    .zh-booking-parent .zh-title .zh-desc , .zh-booking-parentAR .zh-title .zh-desc
+    {
         font-size: 16px;
         margin-top: 20px;
         width: 100%;
     }
-    .zh-booking-parent .zh-info .zh-icons span img
+    .zh-booking-parent .zh-info .zh-icons span img , .zh-booking-parentAR .zh-info .zh-icons span img
     {
         width: 50px;
         height: 50px;
     }
-    .zh-booking-parent .zh-info .zh-icons span p
+    .zh-booking-parent .zh-info .zh-icons span p , .zh-booking-parentAR .zh-info .zh-icons span p
     {
         font-size: 12px;
     }
-    .zh-booking-parent .zh-info .zh-btn-price button 
+    .zh-booking-parent .zh-info .zh-btn-price button , .zh-booking-parentAR .zh-info .zh-btn-price button 
     {
         width: 180px;
         height: 45px;
         font-size: 20px;
         padding: 0;
     }
-    .zh-booking-parent .zh-info .zh-btn-price p 
+    .zh-booking-parent .zh-info .zh-btn-price p , .zh-booking-parentAR .zh-info .zh-btn-price p 
     {
         width: max-content;
         font-size: 28px;
     }
-    .zh-booking-parent .zh-info .zh-btn-price p span 
+    .zh-booking-parent .zh-info .zh-btn-price p span , .zh-booking-parentAR .zh-info .zh-btn-price p span 
     {
         width: max-content;
         font-size: 18px;
@@ -231,20 +333,25 @@
 
 @media(max-width:1025px)
 {
-    .zh-booking-parent{
+    .zh-section2,.zh-section
+    {
+        height: max-content;
+    }
+    .zh-booking-parent , .zh-booking-parentAR
+    {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-    .zh-booking-parent .zh-inner-img
+    .zh-booking-parent .zh-inner-img , .zh-booking-parentAR .zh-inner-img
     {
         width: 100%;
-        height: 500px;
+        height: 350px;
         border-top-left-radius: 2%;
         border-top-right-radius: 2%;
         border-bottom-left-radius: 0% !important;
     }
-    .zh-booking-parent .zh-inner-img img
+    .zh-booking-parent .zh-inner-img img , .zh-booking-parentAR .zh-inner-img img
     {
         width: 100%;
         border-bottom-left-radius: 0% !important;
@@ -259,7 +366,8 @@
 
 @media(max-width:500px)
 {
-    .zh-booking-parent .zh-info .zh-icons{
+    .zh-booking-parent .zh-info .zh-icons , .zh-booking-parentAR .zh-info .zh-icons
+    {
         margin-top: 10px;
         width: 90%;
         margin-left: 0px;
@@ -268,46 +376,46 @@
     {
         padding: 10px;
     }
-    .zh-booking-parent .zh-inner-img
+    .zh-booking-parent .zh-inner-img , .zh-booking-parentAR .zh-inner-img
     {
         height: 200px;
     }
-    .zh-booking-parent .zh-title h2
+    .zh-booking-parent .zh-title h2 , .zh-booking-parentAR .zh-title h2
     {
         font-size: 16px;
         line-height:25px;
     }
-    .zh-booking-parent .zh-title h5
+    .zh-booking-parent .zh-title h5 , .zh-booking-parentAR .zh-title h5
     {
         line-height:10px;
         font-size: 10px;
     }
-    .zh-booking-parent .zh-info .zh-icons span img
+    .zh-booking-parent .zh-info .zh-icons span img , .zh-booking-parentAR .zh-info .zh-icons span img
     {
         width: 20px;
         height: 20px;
     }
-    .zh-booking-parent .zh-info .zh-icons span p
+    .zh-booking-parent .zh-info .zh-icons span p , .zh-booking-parentAR .zh-info .zh-icons span p
     {
         font-size: 8px;
     }
-    .zh-booking-parent .zh-title .zh-desc
+    .zh-booking-parent .zh-title .zh-desc , .zh-booking-parentAR .zh-title .zh-desc
     {
         font-size: 10px;
         margin-top: 10px;
         margin-left: 0px;
     }
-    .zh-booking-parent .zh-info .zh-btn-price button 
+    .zh-booking-parent .zh-info .zh-btn-price button , .zh-booking-parentAR .zh-info .zh-btn-price button 
     {
         width: 100px;
         height: 35px;
         font-size: 12px;
     }
-    .zh-booking-parent .zh-info .zh-btn-price p 
+    .zh-booking-parent .zh-info .zh-btn-price p , .zh-booking-parentAR .zh-info .zh-btn-price p 
     {
         font-size: 16px;
     }
-    .zh-booking-parent .zh-info .zh-btn-price p span 
+    .zh-booking-parent .zh-info .zh-btn-price p span ,.zh-booking-parentAR .zh-info .zh-btn-price p span 
     {
         font-size: 10px;
     }

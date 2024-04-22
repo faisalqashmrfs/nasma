@@ -1,5 +1,4 @@
 import Hero from "../components/Hero/Hero"
-import imghero from "./../img/Gallry.png"
 import Galleryson from "./components/Galleryson"
 import imgheroY from "./../img/gallery.png"
 import img1 from './assets/img/Rectangle 82.png'
@@ -15,7 +14,7 @@ import { useEffect, useState } from 'react';
 import { CircleLoader } from 'react-spinners';
 import TheFooter from "../../assets/component/TheFooter";
 
-function Gallery({ togle }) {
+function Gallery({ togle,ChosingLan }) {
 
   const [lood, setlood] = useState(false)
   useEffect(() => {
@@ -26,11 +25,11 @@ function Gallery({ togle }) {
   }, [])
 
   return (
-    <>
-      <Hero imghero={imghero}
-        titlehero="Resort Gallery"
-        deschero="Welcome to our gallery of fun
-                and distinctive photos and videos "
+    <main className={ChosingLan === 'en' ? "MainEnglesh" : "MainArabic" }>
+      <Hero
+      class={'zh-imgGallery'}
+        titlehero={ChosingLan === 'en' ? "Resort Gallery" : "صور المنتجع"}
+        deschero={ChosingLan === 'en' ? "Welcome to our gallery of funand distinctive photos and videos" : "مرحبا بكم في المعرض المليء بصور وفيديوهات المنتجع المميزة"}
         shadowHero={shadowHero}
         togle={togle}
       />
@@ -52,9 +51,11 @@ function Gallery({ togle }) {
             img6={img6}
             btn="View More"
           />
-          <TheFooter />
+          <TheFooter 
+              ChosingLan={ChosingLan}
+              />
         </section>}
-    </>
+    </main>
   )
 }
 export default Gallery

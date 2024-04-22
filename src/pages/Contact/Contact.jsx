@@ -2,7 +2,6 @@ import ContactInfo from "../components/ContactInfo/ContactInfo"
 import Hero from "../components/Hero/Hero"
 import ContactMA from "../components/contact-form/Contact-form"
 import OurSection from "../components/our-section/Our-section"
-import imghero from "./../img/contact.png"
 import mountainbreezeicon from './../img/Frame.png';
 import locationicon from './../img/location.svg';
 import phoneicon from './../img/call.svg';
@@ -19,7 +18,7 @@ import { CircleLoader } from 'react-spinners';
 import TheFooter from "../../assets/component/TheFooter";
 
 
-function Contact({ togle }) {
+function Contact({ togle , ChosingLan}) {
 
   const [lood, setlood] = useState(false)
   useEffect(() => {
@@ -30,11 +29,11 @@ function Contact({ togle }) {
   }, [])
 
   return (
-    <>
-      <Hero imghero={imghero}
-        titlehero="Contact Us"
-        deschero="Would you like to keep in touch? we'd love to hear from you.
-      Here's how you can reach us..."
+    <main className={ChosingLan === 'en' ? "MainEnglesh" : "MainArabic" }>
+      <Hero
+      class={'zh-imgContact'}
+      titlehero={ChosingLan === 'en' ? "Contact Us" : "اتصل بنا "}
+      deschero={ChosingLan === 'en' ? "Would you like to keep in touch? we'd love to hear from you .Here's how you can reach us..." : "هل ترغب في البقاء على اتصال؟ نحب أن نسمع منك. إليك كيف يمكنك الوصول إلينا"}
         shadowHero={shadowHero}
         togle={togle}
       />
@@ -86,11 +85,13 @@ function Contact({ togle }) {
             instagramicon={instagramicon}
             linkedinicon={linkedinicon}
           />
-          <TheFooter />
+          <TheFooter 
+              ChosingLan={ChosingLan}
+              />
 
         </section>
       }
-    </>
+    </main>
   )
 }
 export default Contact

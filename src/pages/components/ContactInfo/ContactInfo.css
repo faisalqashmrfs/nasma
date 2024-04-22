@@ -26,7 +26,6 @@
 }
 
 .zh-contact-info-section .zh-mountain-breeze-icon p{
-    font-family: Montserrat;
     font-size: 0.87rem;
     font-weight: 700;
     line-height: 1.06rem;
@@ -60,7 +59,6 @@
 
 
 .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h5 , .zh-direction h5 , .zh-phone-parking .zh-phone h5 , .zh-car h5 {
-    font-family: Montserrat;
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 2.12rem;
@@ -76,7 +74,6 @@
 }
 
 .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location h6 , .zh-direction h6 ,.zh-phone-parking .zh-phone h6 ,.zh-car h6{
-    font-family: Montserrat;
     font-size: 1.75rem;
     font-weight: 500;
     line-height: 2.12rem;
@@ -86,7 +83,6 @@
 }
 
 .zh-contact-info-section .zh-contact-4-info .zh-location-direction .zh-location p,.zh-direction p,.zh-phone-parking .zh-phone p, .zh-car p{
-    font-family: Montserrat;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.81rem;
